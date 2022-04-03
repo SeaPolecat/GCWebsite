@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!--imports the external CSS file-->
+        <link rel="stylesheet" href="externalCSS.css">
+    </head>
+
+    <body>
+        <h1>Sauciest Heading</h1>
+
+        <p>Sauciest Paragraph</p>
+
+        <a href="https://www.w3schools.com" title="tooltip about the link!" target="_blank">This is a hyperlink</a>
+
+        <h2 id="bm2">Bookmark 2</h2>
+
+        <!--an HTML table-->
+        <table style="width:100%">
+            <caption>Sauciest Guardians</caption>
+
+            <!--
+                styling a specific group of columns
+                There are a limited selection of available CSS properties:
+                width
+                visibility
+                background
+                border
+            -->
+            <colgroup>
+                <!--leaving one empty column, then styling everything that comes after (styling the middle)-->
+                <col span="1" style="visibility:collapse"> <!--hiding a column (completely)-->
+                <col span="2" style="background-color: cornflowerblue;">
+            </colgroup>
+            <!--table rows-->
+            <tr>
+                <!--table headers (bolded)-->
+                <th style="width:30%">Titans</th>
+
+                <!--a header that spans 2 columns (use rowspan for rows)-->
+                <th colspan="2">Hunters</th>
+            </tr>
+            <tr style="height:50px">
+                <!--table data (can contain anything)-->
+                <th>pee</th>
+                <td>poo</td>
+                <td>pii</td>
+            </tr>
+            <tr>
+                <th>paa</th>
+                <td>pyy</td>
+                <td>puu</td>
+            </tr>
+        </table>
+
+        <!--a horizontal menu-->
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+
+        <div class="cafe">
+            <h2>Coffee</h2>
+            <p>An HTML element using a class will be styled according to that class' style definition</p>
+        </div>
+
+        <div class="cafe">
+            <h2>Croissant</h2>
+            <p>class attribute can be used on any element!</p>
+        </div>
+
+        <h3>NOTE!! class names are <span class="cafe">cAsE sEnSiTiVe</span></h3>
+
+        <h2 class="cafe gangster">here is an element that belongs to multiple classes</h2>
+
+        <!--javascript accessing elements with a specific class name-->
+        <script>
+            function test() {
+                var x = document.getElementsByClassName("cafe");
+
+                for(var i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+            }
+        </script>
+
+        <!--id names are also case sensitive-->
+        <h1 id="stickyFingers">this is Bucciarati using the stickyFingers id lelelelel</h1>
+
+        <script>
+            //javascript changing content
+            document.getElementById("stickyFingers").innerHTML = "Have a nice day!";
+
+            //javascript changing styles
+            document.getElementById("stickyFingers").style.fontSize = "20px";
+            document.getElementById("stickyFingers").style.color = "red";
+            document.getElementById("stickyFingers").style.backgroundColor = "blue";
+
+            //javascript changing attributes
+            document.getElementById("stickyFingers").src = "picture.gif";
+        </script>
+
+        <noscript>alternate text to display if someone's browser doesn't support scripts</noscript>
+    </body>
+</html>
