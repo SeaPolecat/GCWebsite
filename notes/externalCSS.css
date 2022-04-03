@@ -1,0 +1,177 @@
+/*does the same thing as internal CSS, but is in an external CSS file*/
+/*CSS = Cascading Style Sheets*/
+
+/*an HTML class*/
+.cafe {
+    background-color: rosybrown;
+    color: darkslateblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+.gangster {
+    font-size: 150%;
+    font-family: cursive;
+}
+
+/*an HTML id (class can be used on multiple elements, while only one element can have this id) and id must be unique*/
+#stickyFingers {
+    background-color: blue;
+    color: honeydew;
+    text-align: center;
+}
+
+body {
+    background-color: powderblue;
+    background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screenshot-4-1601480276.png');
+}
+
+h1 {
+    color: blue;
+    font-family: cursive;
+    font-size: 60px;
+}
+
+p {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 300%;
+
+    /*middle parameter is the style, and cannot be omitted*/
+    border: 10px solid goldenrod;
+
+    /*spacing between text and border*/
+    padding: 30px;
+
+    /*a margin (space) outside the border*/
+    margin: 50px;
+
+    background-image: url('https://pbs.twimg.com/profile_images/1371936477848944649/C1LgElS5_400x400.jpg');
+
+    /*prevents the background image from repeating itself*/
+    background-repeat: no-repeat;
+    /*single image covers the whole background*/
+    background-size: cover;
+    /*image does not stretch*/
+    background-attachment: fixed;
+
+    /*ensures that the image always stretches to fill the background*/
+    background-size: 100% 100%;
+}
+
+/*unvisited link*/
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*visited link*/
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*when hovering over link*/
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/*active link*/
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/*a link can be styled as a button, like this*/
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: red;
+}
+
+table, th, td {
+    /*adding borders to tables*/
+    border: 2px solid blue;
+
+    /*making the borders a single line*/
+    border-collapse: collapse;
+
+    /*borders have rounded corners*/
+    border-radius: 100px;
+
+    /*the space between each cell*/
+    border-spacing: 30px;
+}
+
+th, td {
+    /*background-color: aquamarine;*/
+    border-style: groove;
+    border-color: blueviolet;
+
+    /*spacing between the cell edges and cell content*/
+    padding: 20px;
+    padding-bottom: 3px;
+}
+
+th {
+    /*aligning table headers*/
+    text-align: right;
+}
+
+/*styling every other row*/
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+/*styling every other column (for both regular and header elements)*/
+td:nth-child(even), th:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+/*for the above code, both effects are combined (used transparent colour for overlapping effect)*/
+
+/*horizontal dividers (only bottom borders show for rows)*/
+tr {
+    border-bottom: 2px solid goldenrod;
+}
+
+/*effects for when you hover over the table*/
+tr:hover {
+    background-color: deeppink;
+}
+
+/*using CSS to create a horizontal list, AKA a menu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: hotpink;
+}
+
+li {
+    /*displaying a list horizontally*/
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+}

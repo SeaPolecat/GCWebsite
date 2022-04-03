@@ -1,0 +1,31 @@
+/*raleway semi-bold*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+/*chelsea market*/
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: grey;
+    padding: 20px;
+}
+
+.header {
+    position: relative;
+    right: -50px;
+    color: white;
+    font-family: 'Raleway';
+    display: inline;
+    margin: 40px;
+}
+
+h1:hover {
+    color: blue;
+    transition: 0.3s
+}
+
+a {
+    text-decoration: none;
+}

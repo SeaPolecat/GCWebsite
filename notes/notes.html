@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <!--HTML = Hypertext Markup Language-->
+    <!--first 2 characters define language, second 2 define country-->
+    <!--html is not case sensitive-->
+
+    <head>
+        <!--title shown in the browser's tab-->
+        <title>First Website</title>
+
+        <!--
+            adds a favicon (little image beside the tab name) 
+            note: use a favicon generator first
+        -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+
+        <!--character set used-->
+        <meta charset="UTF-8">
+        <!--keywords for search engines-->
+        <meta name="keywords" content="HTML, CSS, Javascript">
+        <!--description of the website-->
+        <meta name="description" content="my HTML notes">
+        <!--author of website-->
+        <meta name="author" content="SeaPolecat">
+        <!--refresh document every 30s-->
+        <!--<meta http-equiv="refresh" content="30">-->
+        <!--setting viewport (user's visible area of a web page) to make website look good on all devices-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--specifies the base URL and target for all relative URLs in a page (there can only be one base element)-->
+        <!--<base href="https://www.w3schools.com/" target="_blank">-->
+    </head>
+
+    <body style="background-color: bisque">
+        <h1>This is a Large Heading</h1> <!--sizes from from h1 to h6-->
+
+        <p>This is a paragraph</p>
+
+        <!--
+            target specifies where the new page will be opened
+            _self: same window/tab
+            _blank: new window/tab
+            _parent: the parent frame
+            _top: full body of the window
+        -->
+        <a href="https://www.w3schools.com" title="tooltip about the link!" target="_blank">This is a hyperlink</a>
+
+        <br> <!--line break-->
+
+        <p>
+            <img src="https://pbs.twimg.com/profile_images/819711904637718535/Yf9nvMSn_400x400.jpg" 
+            alt="uh oh image is stinki" width="200" height="200">
+        </p>
+        
+        <!--alt specifies backup text to display if the initial image is unavailable-->
+
+        <p style="color: mediumseagreen">hehe this is a shrek paragraph</p>
+
+        <p style="background-color: blueviolet">This is a highlighted paragraph; yes very ugly</p>
+
+        <p title="this is a tooltip; you can see it when you hover over it">Title tooltips; hover over me!</p>
+
+        <!--the orange thingies are called attributes-->
+
+        <h1 style="font-size: 60px;">very chonky heading</h1>
+
+        <h1 style="font-family:cursive">A comic sans heading, mate!</h1>
+
+        <hr> <!--horizontal rule (line that divides the page)-->
+
+        <pre>
+            This is a pre-formatted paragraph that preserves both
+                          spaces and
+
+                    line breaks
+        </pre>
+
+        <p style="text-align:center">A centered paragraph!</p>
+
+        <!--HMTL formatting (to be placed in paragraphs)-->
+        <b>Bold</b> <br>
+        <strong>Strong</strong> <br>
+        <i>Italic</i> <br>
+        <em>Emphasize</em> <br>
+        <mark>Marked</mark> <br>
+        <small>Smaller</small> <br>
+        <del>Deleted</del> <br>
+        <ins>Inserted</ins> <br>
+        <sub>Subscript</sub> <br>
+        <sup>Superscript</sup> <br>
+
+        <blockquote cite="https://www.twitchquotes.com/copypastas/labels/classic">
+            What is a block quotation example?
+            An example of a block quote includes any passage you cite that is more than 40 words.
+            The block quote consists of a lead-in line, and it is set off with a 1/2 inch indent for the entire passage.
+        </blockquote>
+
+        <p>This is a <q>short quotation,</q> you don't use quotation marks</p>
+
+        <p>Abbreviating things: <abbr title="Hypertext Markup Language">HTML</abbr></p>
+
+        <address>
+            This defines contact information for the author/owner <br>
+            Find us at: <br>
+            PeePeePooPoo.com <br>
+            CheeseLand <br>
+            Christmas Island
+        </address>
+
+        <p>Citing work: <cite>Gimme Cards</cite> by SeaPolecat in 2021</p>
+
+        <bdo dir="rtl">bdo is used to override text direction; for example, this is written from right to left</bdo>
+
+        <h2 id="bm">Bookmark</h2>
+        
+        <h1 style="border:5px solid cornflowerblue">This is a bordered heading</h1>
+
+        <h1 style="background-color: rgb(225, 99, 71);">Heading in RBG colour</h1>
+
+        <h1 style="background-color: #ff6347">Heading in HEX colour</h1>
+
+        <h1 style="background-color: hsl(9, 100%, 64%)">Heading in HSL colour</h1>
+
+        <!--The 2 headings below have alpha channels (level of transparency) and they are 50% transparent-->
+        <h1 style="background-color: rgba(225, 99, 71, 0.5);">Heading in RBG colour</h1>
+        <h1 style="background-color: hsla(9, 100%, 64%, 0.5)">Heading in HSL colour</h1>
+        
+        <h2>Absolute URLs: full web address</h2>
+        <p><a href="https://www.w3schools.com">W3Schools</a></p>
+        <p><a href="https://www.google.com">Google</a></p>
+
+        <!--won't display because they're local somewhere else-->
+        <h2>Relative URLs: link to a page within the same website</h2>
+        <p><a href="internalCSS.html">Internal CSS</a></p>
+        <p><a href="externalCSS.html">External CSS</a></p>
+
+        <!--Using image as a link-->
+        <p>
+            <a href="https://www.w3schools.com">
+                <img src="https://static.wikia.nocookie.net/841f732c-a2d8-4258-a3c9-cc1a1d705c0e/scale-to-width/755" 
+                alt="Cursed Za Warudo"
+                style="width:200px; height:200px;">
+            </a>
+        </p>
+
+        <p><a href="mailto:wangwayne400@gmail.com">link to an email address (opens your email program)</a></p>
+
+        <p><button onclick="document.location='externalCSS.html'">Using button as a link</button></p>
+
+        <p><a href="#bm">Jump to a bookmark</a></p>
+
+        <p><a href="externalCSS.html#bm2">Jump to a bookmark on another page</a></p>
+
+        <p>
+            <img src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/7d0332bb3779d64.png" 
+            alt="Pusheen"
+            style="float:right; width:150px; height:150px;">
+            This image will float to the right of the text
+        </p>
+
+        <p>
+            <img src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/7d0332bb3779d64.png" 
+            alt="Pusheen"
+            style="float:left; width:150px; height:150px;">
+            This image will float to the left of the text
+        </p>
+
+        <!--creation of an image map, an image with different clickable sections-->
+        <p><img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap"></p>
+
+        <!--
+            building the image map using different sections; the name is linked to the usemap attribute
+            Possible shapes for a clickable area:
+
+            rect: rectangular (x,y,x,y)
+            circle: circular (x,y,radius)
+            poly: polygonal (x,y,x,y,x,y...)
+            default: the entire region
+        -->
+        <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+
+            <!--onclick is linked to a javascript function-->
+            <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm" onclick="coffeeCup()">
+        </map>
+
+        <!--the javascript function (makes the browser send an alert)-->
+        <script>
+            function coffeeCup() {
+                alert("You clicked the coffee cup!");
+            }
+        </script>
+
+        <p style="background-image: url('https://pbs.twimg.com/profile_images/1371936477848944649/C1LgElS5_400x400.jpg');">
+            this paragraph has a background image. neat huh!
+        </p>
+
+        <!--different devices can display different images; browser will use the first one that fits-->
+        <picture>
+            <!--structure is kind of like an if-else loop-->
+            <source media="(min-width): 650px" srcset="https://wallpaper.dog/large/5509741.jpg">
+            <source media="(min-width): 465px" srcset="https://cdn.vox-cdn.com/uploads/chorus_asset/file/21825429/VRG_Birchler_Catalina.0.jpg">
+            <!--always end it with an img tag, because it's the last resort-->
+            <img src="https://wallpaperaccess.com/full/797185.png" style="width:200px; height:200px;">
+        </picture>
+
+        <!--unordered HTML list-->
+        <ul>
+            <!--list element (can contain anything)-->
+            <li>Coffee</li>
+            <li>Milk</li>
+            <li>Tea</li>
+        </ul>
+
+        <!--ordered HTML list-->
+        <ol>
+            <li>Coffee</li>
+            <li>Milk</li>
+            <li>Tea</li>
+        </ol>
+
+        <!--description list-->
+        <dl>
+            <dt>This is a term</dt>
+            <dd>this is the term's description</dd>
+            
+            <dt>Another term</dt>
+            <dd>another description</dd>
+        </dl>
+
+        <!--
+            list-style-type define the style of the list item marker
+            Possible values:
+            disc
+            circle
+            square
+            none
+        -->
+        <ul style="list-style-type:square;">
+            <li>Coffee</li>
+                <!--nested list (list inside list)-->
+                <ul>
+                    <li>Mocha</li>
+                    <li>Cappucino</li>
+                    <li>Latte</li>
+                </ul>
+            <li>Milk</li>
+            <li>Tea</li>
+        </ul>
+
+        <!--
+            type attribute defines the type of list item marker:
+            1: numbers (default)
+            A: uppercase letters
+            a: lowercase letters
+            I: uppercase roman numerals
+            i: lowercase roman numerals
+
+            start attribute defines where you start counting
+        -->
+        <ol type="I" start="30">
+            <li>Coffee</li>
+            <li>Milk</li>
+            <li>Tea</li>
+        </ol>
+
+        <!--a block-level element always start on a new line, and spaces are added automatically-->
+        <div style="background-color: aquamarine; color: darkcyan; padding:20px">
+            'div' is a container for other HTML elements, and can be used to style sections of content
+
+            <h2>Ahoy there matee!</h2>
+            <p>how u doin on this fine evening?</p>
+        </div>
+
+        <!--span is like div, but for inline section styling; (inline elements can't contain block elements)-->
+        <p>Titans are <span style="color: red">red</span>, and Hunters are <span style="color: blue">blue</span></p>
+
+        <!--having an external website in a frame-->
+        <iframe src="file:///C:/Users/wangw/Documents/GCWebsite/externalCSS.html#home" 
+        title="externalCSS" name="targetMe!" style="border:3px solid blueviolet; width:1000px; height:300px;"></iframe>
+        <!--for border, use 'none' to remove it-->
+
+        <!--to do this, the name attribute must be used-->
+        <p><a href="https://www.w3schools.com" target="targetMe!">Using an iframe as the target of a link!</a></p>
+
+        <!--absolute file path-->
+        <p>
+            <img src="https://media.wired.com/photos/5a5547032b3a7778f5ca06cb/125:94/w_1593,h_1198,c_limit/Doggo-FeatureArt2-104685145.jpg" 
+            alt="Absolute file path" style="width:100px; height:100px;">
+        </p>
+
+        <!--relative file paths-->
+        <p><img src="/images/doggo.png" alt="located at the root of current web"></p>
+
+        <p><img src="images/doggo.png" alt="located in the current folder"></p>
+
+        <p><img src="../images/doggo.png" alt="located in the folder one up from the current folder"></p>
+
+        <!--making the image responsive so it scales up and down-->
+        <p><img src="https://i1.sndcdn.com/artworks-000810672895-5vv94q-t500x500.jpg" alt="doggo"
+            style="width:100%;">
+        </p>
+
+        <!--making sure that the image doesn't scale larger than its original size-->
+        <p><img src="https://i1.sndcdn.com/artworks-000810672895-5vv94q-t500x500.jpg" alt="doggo"
+            style="max-width:100%; height:auto;">
+        </p>
+
+        <!--'vw' (viewport width) means that the text will follow the size of the browser window-->
+        <h1 style="font-size:10vw">Ahoy there</h1>
+
+        <h3>&lt; This is a less than entity</h3>
+
+        <h3>&#60; This is also a less than entity</h3>
+
+        <h3>A non-breaking space sticks 2 words together, like 10&nbsp;km/h</h3>
+
+        <h3>A diacritical mark is the accent on top of a letter, like this: Poke&#769;mon</h3>
+
+    </body>
+</html>
