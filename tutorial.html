@@ -3,8 +3,37 @@
 <html lang="en-US">
 
     <head>
-        <title>About Me</title>
+        <title>Gimme Cards</title>
 
-        <?php include "header.html" ?>
+        <link rel="stylesheet" href="css/style.css">
     </head>
+
+    <body onload="clickSingleA()">
+        <header style="background-color: #E3E5E9">
+            <img class="logo" src="images/logo.png" alt="Gimme Cards logo">
+
+            <a id="test" href="about-me.html" onclick="clickSingleA();" class="single">
+                <h1 id="test2" onclick="clickSingleA()" class="menu">About Me</h1>
+            </a>
+
+            <h1 id="test3" onclick="clickSingleA()" class="menu" style="font-size:local">About Me</h1>
+
+            <a id="test4" href="tutorial.html" onclick="clickSingleA()" class="single">
+                <h1 class="menu">Tutorial</h1>
+            </a>
+
+            <h1 class="menu">Commands</h1>
+
+            <h1 class="menu">Support</h1>
+
+            <h1 class="menu">Invite Me</h1>
+        </header>
+
+        <script>
+            function clickSingleA() {
+                document.getElementById("test4").style.fontSize = "5px";
+                //document.getElementById("test").className = "active";
+            }
+        </script>
+    </body>
 </html>
