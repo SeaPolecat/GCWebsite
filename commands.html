@@ -8,10 +8,40 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
 
-    <body onload="activate('commands')">
+    <body onload="activate('commands')" style="background-image: url(images/background.png)">
         <script src="js/header.js"></script>
 
-        
+        <h1 class="collapsible" onclick="expand('coll')">Click me</h1>
+
+        <div class="content" id="coll" style="display:none">
+            <h1>le content inside the collapsible hehe</h1>
+        </div>
+
+        <h1 class="collapsible" onclick="expand('coll2')">Click me 2</h1>
+
+        <div class="content" id="coll2" style="display:none">
+            <h1>le content inside the collapsible hehe</h1>
+        </div>
+
+        <h1 class="collapsible" onclick="expand('coll3')">Click me 3</h1>
+
+        <div class="content" id="coll3" style="display:none">
+            <h1>le content inside the collapsible hehe</h1>
+        </div>
+
+        <script>
+            //loop through all elements with coll class, and collapse every one except for the one with the right id
+            function expand(id) {
+                var coll = document.getElementsByClassName("content");
+
+                for(i = 0; i < coll.length; i++) {
+                    if(coll[i].style.display === "block") {
+                        coll[i].style.display = "none";
+                    }
+                }
+                document.getElementById(id).style.display = "block";
+            }
+        </script>
 
     </body>
 </html>
