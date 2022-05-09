@@ -3,17 +3,22 @@
 /*balsamiq sans*/
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
+/*general*/
+
+a {
+    text-decoration: none;
+}
+
 body {
-    margin: 0;
     background-color: #181A1C;
+    margin: 0;
 }
 
 header {
-    background-color: #181A1C;
-    padding: 20px;
-    line-height: 60px; /*logo is centered if line-height and logo dimensions are the same*/
     text-align: center;
-    overflow: hidden;
+    background-color: #181A1C;
+    padding: /*20px*/1.323vw;
+    line-height: 60px; /*logo is centered if line-height and logo dimensions are the same*/
     box-shadow: 0px 0px 10px 3px black;
 }
 
@@ -21,27 +26,20 @@ footer {
     box-shadow: 0px 0px 10px 3px black;
 }
 
-a {
-    text-decoration: none;
-}
+/*menu*/
 
 img.logo {
-    width: 60px;
-    height: 60px;
     float: left;
-}
-
-img.logo-img {
-    width: 200px;
-    height: 200px;
+    width: /*60px*/3.968vw;
+    height: /*60px*/3.968vw;
 }
 
 h1.menu {
-    color: #E3E5E9;
-    font-size: 150%;
-    font-family: 'Raleway';
     display: inline;
-    margin-right: 40px;
+    color: #E3E5E9;
+    font-family: 'Raleway';
+    font-size: /*25px*/1.653vw;
+    margin-right: /*40px*/2.646vw;
     transition: 0.3s;
 }
 
@@ -53,27 +51,57 @@ h1.menu-active {
     color: #FEBE54;
 }
 
-h1.blue-header {
-    color: #7289DA;
-    font-family: 'Balsamiq Sans';
-    font-size: 250%;
+/*about*/
+
+div.heading {
     text-align: center;
+    font-family: 'Balsamiq Sans';
+    font-size: /*25px*/1.5vw;
+    color: #7289DA;
+    text-shadow: 3px 3px 3px black;
+}
+
+img.about-shop {
+    float: left;
+    width: /*250px*/16.534vw;
+    border: 5px solid #7289DA;
+    border-radius: 10px;
+    margin-top: /*30px*/1.984vw;
+    margin-left: /*170px*/11.243vw;
+    transform: rotate(-10deg);
+}
+
+img.about-oldshop {
+    float: right;
+    width: /*250px*/16.534vw;
+    border: 5px solid #7289DA;
+    border-radius: 10px;
+    margin-top: /*30px*/1.984vw;
+    margin-right: /*170px*/11.243vw;
+    transform: rotate(10deg);
+}
+
+div.brand-name {
+    text-align: center;
+    font-family: 'Balsamiq Sans';
+    font-size: 30px;
+    color: #E3E5E9;
 }
 
 h1.button {
+    display: inline;
+    font-family: 'Raleway';
+    font-size: 30px;
     color: #E3E5E9;
     background-color: #33363D;
-    font-family: 'Raleway';
-    font-size: 200%;
     border: 5px solid #33363D;
     border-radius: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 2%;
     padding-left: 2%;
-    display: inline;
-    transition: 0.3s;
     box-shadow: 0px 0px 5px 2px black;
+    transition: 0.3s;
 }
 
 h1.button:hover {
@@ -82,26 +110,54 @@ h1.button:hover {
     border: 5px solid #FEBE54;
 }
 
-.collapsible {
-    background-color: #777;
-    color: white;
-    cursor: pointer;
+/*commands*/
+
+h1.collapsible {
+    color: #E3E5E9;
+    background-color: #33363D;
     padding: 18px;
-    border: none;
     text-align: left;
-    outline: none;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: 'Raleway';
     transition: 0.3s;
+    width: 30%;
+    margin-left: 150px;
+    box-shadow: 0px 0px 5px 2px black;
+    border-radius: 10px;
 }
 
-.collapsible:hover {
-    background-color: #555;
+h1.collapsible:hover {
+    color: black;
+    background-color: #FEBE54;
+}
+
+h1.collapsible-active {
+    color: black;
+    background-color: #FEBE54;
 }
   
-.content {
-    padding: 0 18px;
+div.content {
+    float: right;
+    margin-right: 50px;
+    color: #E3E5E9;
+    font-family: 'Raleway';
     display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
-    transition: 0.3s;
+}
+
+img.demo {
+    float: right;
+    width: 600px;
+    border: 5px solid #7289DA;
+    border-radius: 10px;
+}
+
+div.category {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-family: 'Balsamiq Sans';
+    font-size: 20px;
+    font-style: italic;
+    color: #7289DA;
+    text-shadow: 3px 3px 3px black;
 }

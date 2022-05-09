@@ -6,40 +6,71 @@
         <title>Commands</title>
 
         <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="images/favicon.ico">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
-    <body onload="activate('commands')" style="background-image: url(images/background.png)">
+    <body onload="activate('commands'); start()" style="background-image: url(images/background.png)">
         <script src="js/header.js"></script>
 
-        <h1 class="collapsible" onclick="expand('coll')">Click me</h1>
-
-        <div class="content" id="coll" style="display:none">
-            <h1>le content inside the collapsible hehe</h1>
+        <div class="category">
+            <h1>Getting Tokens</h1>
         </div>
 
-        <h1 class="collapsible" onclick="expand('coll2')">Click me 2</h1>
-
-        <div class="content" id="coll2" style="display:none">
-            <h1>le content inside the collapsible hehe</h1>
+        <div class="content" id="redeem">
+            <h1>Redeem one token (30 min cooldown)</h1>
+            <img class="demo" src="images/commands/redeem.png" alt="?redeem">
         </div>
+        <h1 class="collapsible" id="start" onclick="expand(this, 'redeem')">?redeem</h1>
 
-        <h1 class="collapsible" onclick="expand('coll3')">Click me 3</h1>
+        <div class="content" id="daily">
+            <h1>Get a daily reward box (24 hr cooldown)</h1>
+            <img class="demo" src="images/commands/daily.png" alt="?daily">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'daily')">?daily</h1>
 
-        <div class="content" id="coll3" style="display:none">
-            <h1>le content inside the collapsible hehe</h1>
+        <div class="content" id="minigame">
+            <h1>Play a guessing game (1 hr cooldown)</h1>
+            <img class="demo" src="images/commands/minigame.png" alt="?minigame">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'minigame')">?minigame</h1>
+
+        <div class="content" id="guess">
+            <h1>Make a guess during the minigame</h1>
+            <img class="demo" src="images/commands/minigame.png" alt="?guess (rarity)">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'guess')">?guess (rarity)</h1>
+
+        <div class="category">
+            <h1>Shopping</h1>
         </div>
 
         <script>
-            //loop through all elements with coll class, and collapse every one except for the one with the right id
-            function expand(id) {
-                var coll = document.getElementsByClassName("content");
+            function start() {
+                document.getElementById('redeem').style.display = "block";
+                document.getElementById('start').classList.add("collapsible-active");
+            }
 
-                for(i = 0; i < coll.length; i++) {
-                    if(coll[i].style.display === "block") {
-                        coll[i].style.display = "none";
+            //loop through all elements with coll class, and collapse every one except for the one with the right id
+            function expand(elem, id) {
+                var cont = document.getElementsByClassName("content");
+
+                for(i = 0; i < cont.length; i++) {
+                    if(cont[i].style.display === "block") {
+                        cont[i].style.display = "none";
                     }
                 }
                 document.getElementById(id).style.display = "block";
+
+                var coll = document.getElementsByClassName("collapsible");
+
+                for(i = 0; i < coll.length; i++) {
+                    if(coll[i].classList.contains("collapsible-active")) {
+                        coll[i].classList.remove("collapsible-active");
+                    }
+                }
+                elem.classList.add("collapsible-active");
             }
         </script>
 
