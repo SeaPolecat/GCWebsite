@@ -14,6 +14,7 @@
     <body onload="activate('commands'); start()" style="background-image: url(images/background.png)">
         <script src="js/header.js"></script>
 
+<!---->
         <div class="category">
             <h1>Getting Tokens</h1>
         </div>
@@ -38,41 +39,233 @@
 
         <div class="content" id="guess">
             <h1>Make a guess during the minigame</h1>
-            <img class="demo" src="images/commands/minigame.png" alt="?guess (rarity)">
+            <img class="demo" src="images/commands/guess.png" alt="?guess (rarity)">
         </div>
         <h1 class="collapsible" onclick="expand(this, 'guess')">?guess (rarity)</h1>
 
+<!---->
         <div class="category">
             <h1>Shopping</h1>
         </div>
+
+        <div class="content" id="shop">
+            <h1>Visit the Pokémon packs shop</h1>
+            <img class="demo" src="images/commands/shop.png" alt="?shop">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'shop')">?shop</h1>
+
+        <div class="content" id="oldshop">
+            <h1>Visit the legacy Pokémon packs shop</h1>
+            <img class="demo" src="images/commands/oldshop.png" alt="?oldshop">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'oldshop')">?oldshop</h1>
+
+        <div class="content" id="rareshop">
+            <h1>Visit the exclusive Pokémon cards shop</h1>
+            <img class="demo" src="images/commands/rareshop.png" alt="?rareshop">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'rareshop')">?rareshop</h1>
+
+        <div class="content" id="unlock">
+            <h1>Unlock a pack at the shop</h1>
+            <img class="demo" src="images/commands/unlock.png" alt="?unlock (pack name)">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'unlock')">?unlock (pack name)</h1>
+
+        <div class="content" id="open">
+            <h1>Open a pack at the shop</h1>
+            <img class="demo" src="images/commands/open.png" alt="?open (pack name)">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'open')">?open (pack name)</h1>
+
+<!---->
+        <div class="category">
+            <h1>Inventory</h1>
+        </div>
+
+        <div class="content" id="backpack">
+            <h1>See your current level and inventory</h1>
+            <img class="demo" src="images/commands/backpack.png" alt="?backpack">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'backpack')">?backpack</h1>
+
+        <div class="content" id="cards">
+            <h1>See your entire card collection</h1>
+            <img class="demo" src="images/commands/cards.png" alt="?cards">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'cards')">?cards</h1>
+
+        <div class="content" id="view1">
+            <h1>View a card you own in detail</h1>
+            <img class="demo" src="images/commands/view1.png" alt="?view (card number)">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'view1')">?view (card number)</h1>
+
+        <div class="content" id="fav">
+            <h1>Add a card to your favourites (favs can't be sold)</h1>
+            <img class="demo" src="images/commands/fav.png" alt="?fav (card number)">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'fav')">?fav (card number)</h1>
+
+        <div class="content" id="unfav">
+            <h1>Remove a card from your favourites</h1>
+            <img class="demo" src="images/commands/unfav.png" alt="?unfav (card number)">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'unfav')">?unfav (card number)</h1>
+
+        <div class="content" id="favs">
+            <h1>View all your favourite cards</h1>
+            <img class="demo" src="images/commands/favs.png" alt="?favs">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'favs')">?favs</h1>
+
+        <div class="content" id="sort">
+            <h1>Sort your cards a certain way (see format below)</h1>
+            <img class="demo" src="images/sortinghelp.png" alt="sorting help">
+            <br>
+            <img class="demo" src="images/commands/sort.png" alt="?sort (option) (order)" style="margin-top:20px">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'sort')">?sort (option) (order)</h1>
+
+<!---->
+        <div class="category">
+            <h1>Selling</h1>
+        </div>
+
+        <div class="content" id="sell">
+            <h1>Sell a card you own for XP</h1>
+            <img class="demo" src="images/commands/sell.png" alt="?sell (card number)">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'sell')">?sell (card number)</h1>
+
+        <div class="content" id="sellgroup">
+            <h1>Sell a group of cards you own for XP</h1>
+            <img class="demo" src="images/commands/sellgroup.png" alt="?sellgroup (card number) (card number)">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'sellgroup')">?sellgroup (card number) (card number)</h1>
+
+        <div class="content" id="selldupes">
+            <h1>Sell your duplicate cards for XP</h1>
+            <img class="demo" src="images/commands/selldupes.png" alt="?selldupes">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'selldupes')">?selldupes</h1>
+
+        <div class="content" id="sellall">
+            <h1>Sell all your cards (except favourites) for XP</h1>
+            <img class="demo" src="images/commands/sellall.png" alt="?sellall">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'sellall')">?sellall</h1>
+
+<!---->
+        <div class="category">
+            <h1>Customization</h1>
+        </div>
+
+        <div class="content" id="setprefix">
+            <h1>Set a custom prefix for the bot (requires admin perms)</h1>
+            <img class="demo" src="images/commands/setprefix.png" alt="?setprefix (prefix)">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'setprefix')">?setprefix (prefix)</h1>
+
+        <div class="content" id="setcolor">
+            <h1>Set a custom colour for your backpack</h1>
+            <img class="demo" src="images/commands/setcolor.png" alt="?setcolor (hex code)">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'setcolor')">?setcolor (hex code)</h1>
+
+        <div class="content" id="setfavcard">
+            <h1>Display a card of your choice on your backpack</h1>
+            <img class="demo" src="images/commands/setfavcard.png" alt="?setfavcard (card number)">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'setfavcard')">?setfavcard (card number)</h1>
+
+<!---->
+        <div class="category">
+            <h1>Market</h1>
+        </div>
+
+        <div class="content" id="market">
+            <h1>View the daily card market (different for each server!)</h1>
+            <img class="demo" src="images/commands/market.png" alt="?market">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'market')">?market</h1>
+
+        <div class="content" id="mview">
+            <h1>View a card in the market</h1>
+            <img class="demo" src="images/commands/mview.png" alt="?mview (card number)">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'mview')">?mview (card number)</h1>
+
+        <div class="content" id="buy">
+            <h1>Buy a card from the market</h1>
+            <img class="demo" src="images/commands/buy.png" alt="?buy (card number)">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'buy')">?buy (card number)</h1>
+
+<!---->
+        <div class="category">
+            <h1>Info</h1>
+        </div>
+
+        <div class="content" id="help">
+            <h1>Bring up the bot's help page</h1>
+            <img class="demo" src="images/commands/help.png" alt="?help">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'help')">?help</h1>
+
+        <div class="content" id="rarities">
+            <h1>See all the possible rarities you can get from packs</h1>
+            <img class="demo" src="images/commands/rarities.png" alt="?rarities">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'rarities')">?rarities</h1>
+
+        <div class="content" id="changelog">
+            <h1>See the latest changes/updates to the bot</h1>
+            <img class="demo" src="images/commands/changelog.png" alt="?changelog">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'changelog')">?changelog</h1>
+
+        <div class="content" id="ranks">
+            <h1>See the top 10 collectors in your current server</h1>
+            <img class="demo" src="images/commands/ranks.png" alt="?ranks">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'ranks')">?ranks</h1>
+
+        <div class="content" id="search">
+            <h1>Search for cards from the Pokémon card database</h1>
+            <img class="demo" src="images/commands/search.png" alt="?search (card name)">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'search')">?search (card name)</h1>
+
+        <div class="content" id="view2">
+            <h1>View a card in the search results</h1>
+            <img class="demo" src="images/commands/view2.png" alt="?view (card id)">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'view2')">?view (card id)</h1>
 
         <script>
             function start() {
                 document.getElementById('redeem').style.display = "block";
                 document.getElementById('start').classList.add("collapsible-active");
             }
-
-            //loop through all elements with coll class, and collapse every one except for the one with the right id
+            
             function expand(elem, id) {
-                var cont = document.getElementsByClassName("content");
+                var contents = document.getElementsByClassName("content");
+                var colls = document.getElementsByClassName("collapsible");
 
-                for(i = 0; i < cont.length; i++) {
-                    if(cont[i].style.display === "block") {
-                        cont[i].style.display = "none";
+                for(i = 0; i < contents.length; i++) {
+                    if(contents[i].style.display === "block") {
+                        contents[i].style.display = "none";
+                    }
+                }
+                for(i = 0; i < colls.length; i++) {
+                    if(colls[i].classList.contains("collapsible-active")) {
+                        colls[i].classList.remove("collapsible-active");
                     }
                 }
                 document.getElementById(id).style.display = "block";
-
-                var coll = document.getElementsByClassName("collapsible");
-
-                for(i = 0; i < coll.length; i++) {
-                    if(coll[i].classList.contains("collapsible-active")) {
-                        coll[i].classList.remove("collapsible-active");
-                    }
-                }
                 elem.classList.add("collapsible-active");
             }
         </script>
-
     </body>
 </html>

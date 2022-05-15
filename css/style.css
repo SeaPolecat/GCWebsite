@@ -58,6 +58,8 @@ div.heading {
     font-family: 'Balsamiq Sans';
     font-size: /*25px*/1.5vw;
     color: #7289DA;
+    margin-top: 60px;
+    margin-bottom: 60px;
     text-shadow: 3px 3px 3px black;
 }
 
@@ -112,52 +114,60 @@ h1.button:hover {
 
 /*commands*/
 
+div.category {
+    text-align: left;
+    font-style: italic;
+    font-family: 'Balsamiq Sans';
+    font-size: 20px;
+    color: #7289DA;
+    margin-top: 50px;
+    margin-left: 150px;
+    text-shadow: 3px 3px 3px black;
+}
+
 h1.collapsible {
+    text-align: left;
+    font-family: 'Raleway';
+    font-size: 20px;
     color: #E3E5E9;
     background-color: #33363D;
+    border-radius: 10px;
+    width: 500px;
     padding: 18px;
-    text-align: left;
-    font-size: 20px;
-    font-family: 'Raleway';
-    transition: 0.3s;
-    width: 30%;
     margin-left: 150px;
     box-shadow: 0px 0px 5px 2px black;
-    border-radius: 10px;
+    transition: 0.3s;
 }
 
 h1.collapsible:hover {
     color: black;
     background-color: #FEBE54;
+    width: 550px;
 }
 
 h1.collapsible-active {
     color: black;
     background-color: #FEBE54;
+    width: 550px;
 }
   
 div.content {
-    float: right;
-    margin-right: 50px;
-    color: #E3E5E9;
-    font-family: 'Raleway';
     display: none;
+    float: right;
+    font-family: 'Raleway';
+    font-size: 10px;
+    color: #E3E5E9;
+    background-color: #181A1C;
+    border-radius: 10px;
+    padding: 30px;
+    padding-top: 8px;
+    margin-right: 150px;
+    box-shadow: 0px 0px 5px 2px black;
 }
 
 img.demo {
     float: right;
-    width: 600px;
     border: 5px solid #7289DA;
     border-radius: 10px;
-}
-
-div.category {
-    text-align: left;
-    margin-top: 50px;
-    margin-left: 150px;
-    font-family: 'Balsamiq Sans';
-    font-size: 20px;
-    font-style: italic;
-    color: #7289DA;
-    text-shadow: 3px 3px 3px black;
+    width: 520px;
 }
