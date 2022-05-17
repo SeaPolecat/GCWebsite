@@ -2,48 +2,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
 /*balsamiq sans*/
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+/*pacifico*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 /*general*/
-
-a {
-    text-decoration: none;
-}
 
 body {
     background-color: #181A1C;
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+/*header*/
+
 header {
     text-align: center;
     background-color: #181A1C;
-    padding: /*20px*/1.323vw;
-    line-height: 60px; /*logo is centered if line-height and logo dimensions are the same*/
+    padding: 20px;
+    margin-bottom: 60px;
     box-shadow: 0px 0px 10px 3px black;
 }
-
-footer {
-    box-shadow: 0px 0px 10px 3px black;
-}
-
-/*menu*/
 
 img.logo {
     float: left;
-    width: /*60px*/3.968vw;
-    height: /*60px*/3.968vw;
+    width: 60px;
 }
 
-h1.menu {
+div.top-menu {
+    line-height: 25px;
+    padding: 15px;
+}
+
+h1.top-menu {
     display: inline;
-    color: #E3E5E9;
     font-family: 'Raleway';
-    font-size: /*25px*/1.653vw;
-    margin-right: /*40px*/2.646vw;
+    font-size: 25px;
+    color: #E3E5E9;
+    margin-right: 30px;
     transition: 0.3s;
 }
 
-h1.menu:hover {
+h1.top-menu:hover {
     color: #FEBE54;
 }
 
@@ -51,14 +53,85 @@ h1.menu-active {
     color: #FEBE54;
 }
 
+/*footer*/
+
+footer {
+    background-color: #181A1C;
+    padding: 25px;
+    margin-top: 60px;
+    box-shadow: 0px 0px 10px 3px black;
+}
+
+h1.logo-name {
+    display: inline;
+    font-family: 'Pacifico';
+    font-size: 30px;
+    color: #E3E5E9;
+    margin-left: 20px;
+}
+
+div.bot-menu {
+    float: right;
+    line-height: 25px;
+}
+
+h1.bot-menu {
+    float: right;
+    font-family: 'Raleway';
+    font-size: 25px;
+    color: #AAADB1;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+h1.bot-menu:hover {
+    color: #FEBE54;
+}
+
 /*about*/
+
+div.col-container {
+    display: table;
+    margin: auto;
+    border-spacing: 50px 0;
+}
+
+div.col {
+    display: inline-block;
+    display: table-cell;
+    overflow: hidden;
+    font-family: 'Balsamiq Sans';
+    font-size: /*25px*/1.5vw;
+    color: #7289DA;
+    background-color: #181A1C;
+    border-radius: 10px;
+    width: 500px;
+    padding: 30px;
+    padding-top: 5px;
+    text-shadow: 3px 3px 3px black;
+    box-shadow: 0px 0px 5px 2px black;
+}
+
+img.changes {
+    border: 5px solid #7289DA;
+    border-radius: 10px;
+    width: 100%;
+}
+
+ul.upcoming {
+    text-align: left;
+    font-family: 'Raleway';
+    font-size: 12px;
+    color: #E3E5E9;
+    padding-left: 15px;
+    text-shadow: 3px 3px 3px black;
+}
 
 div.heading {
     text-align: center;
     font-family: 'Balsamiq Sans';
     font-size: /*25px*/1.5vw;
     color: #7289DA;
-    margin-top: 60px;
     margin-bottom: 60px;
     text-shadow: 3px 3px 3px black;
 }
@@ -96,10 +169,9 @@ h1.button {
     font-size: 30px;
     color: #E3E5E9;
     background-color: #33363D;
-    border: 5px solid #33363D;
-    border-radius: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-radius: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-right: 2%;
     padding-left: 2%;
     box-shadow: 0px 0px 5px 2px black;
@@ -109,18 +181,87 @@ h1.button {
 h1.button:hover {
     color: black;
     background-color: #FEBE54;
-    border: 5px solid #FEBE54;
+}
+
+img.all-sets {
+    width: 1000px;
+}
+
+/*tutorial*/
+
+div.disclaimer {
+    text-align: center;
+    overflow: hidden; /*aligns div and img*/
+    margin-bottom: 70px;
+    background-color: #181A1C;
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    text-shadow: 3px 3px 3px black;
+    box-shadow: 0px 0px 5px 2px black;
+}
+
+h1.disclaimer {
+    display: inline;
+    vertical-align: middle;
+    font-family: 'Raleway';
+    font-size: 25px;
+    color: #E3E5E9;
+    margin-left: 20px;
+}
+
+img.jigglypuff {
+    vertical-align: middle;
+    width: 60px;
+}
+
+div.lesson {
+    overflow: hidden; /*aligns div and img*/
+    margin-bottom: 70px;
+    background-color: #181A1C;
+    border-radius: 10px;
+    padding: 30px;
+    text-shadow: 3px 3px 3px black;
+    box-shadow: 0px 0px 5px 2px black;
+}
+
+img.preview {
+    border: 5px solid #7289DA;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0px 0px 5px 2px black;
+}
+
+img.item {
+    vertical-align: middle;
+    width: 100px;
+}
+
+h1.item-name {
+    display: inline;
+    vertical-align: middle;
+    font-family: 'Balsamiq Sans';
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+h1.tip {
+    font-family: 'Raleway';
+    font-size: 25px;
+    color: #E3E5E9;
+    margin-top: 25px;
 }
 
 /*commands*/
 
 div.category {
     text-align: left;
-    font-style: italic;
     font-family: 'Balsamiq Sans';
     font-size: 20px;
     color: #7289DA;
-    margin-top: 50px;
+    margin-top: 60px;
     margin-left: 150px;
     text-shadow: 3px 3px 3px black;
 }
@@ -166,7 +307,7 @@ div.content {
 }
 
 img.demo {
-    float: right;
+    float: right; /*if both div and img float, then they will align*/
     border: 5px solid #7289DA;
     border-radius: 10px;
     width: 520px;
