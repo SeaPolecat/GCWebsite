@@ -25,16 +25,16 @@ header {
 }
 
 div.top-menu {
-    line-height: 25px;
-    padding: 15px;
+    line-height: /*25px*/1.653vw;
+    padding: /*15px*/0.992vw;
 }
 
 h1.top-menu {
     display: inline;
     font-family: 'Raleway';
-    font-size: 25px;
+    font-size: /*25px*/1.653vw;
     color: #E3E5E9;
-    margin-right: 30px;
+    margin-right: /*30px*/1.984vw;
     transition: 0.3s;
 }
 
@@ -48,29 +48,29 @@ h1.menu-active {
 
 img.logo {
     float: left;
-    width: 60px;
+    width: /*60px*/3.968vw;
 }
 
 /*footer*/
 
 footer {
     background-color: #181A1C;
-    padding: 25px;
-    margin-top: 60px;
-    box-shadow: 0px 0px 10px 3px black;
+    padding: /*25px*/1.653vw;
+    margin-top: /*60px*/3.968vw;
+    box-shadow: 0 0 /*10px*/0.661vw /*3px*/0.198vw black;
 }
 
 div.bot-menu {
     float: right;
-    line-height: 25px;
+    line-height: /*25px*/1.653vw;
 }
 
 h1.bot-menu {
     float: right;
     font-family: 'Raleway';
-    font-size: 25px;
+    font-size: /*25px*/1.653vw;
     color: #AAADB1;
-    margin-right: 20px;
+    margin-right: /*20px*/1.323vw;
     transition: 0.3s;
 }
 
@@ -81,10 +81,10 @@ h1.bot-menu:hover {
 h1.logo-name {
     display: inline;
     font-family: 'Pacifico';
-    font-size: 30px;
+    font-size: /*30px*/1.984vw;
     color: #E3E5E9;
-    margin-left: 20px;
-    text-shadow: 3px 3px 3px black;
+    margin-left: /*20px*/1.323vw;
+    text-shadow: /*3px*/0.198vw /*3px*/0.198vw /*3px*/0.198vw black;
 }
 
 /*about*/
@@ -92,65 +92,65 @@ h1.logo-name {
 div.heading {
     text-align: center;
     font-family: 'Balsamiq Sans';
-    font-size: 25px;
+    font-size: /*25px*/1.653vw;
     color: #7289DA;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: /*3px*/0.198vw /*3px*/0.198vw /*3px*/0.198vw black;
 }
 
 img.shop {
     float: left;
-    width: 250px;
-    border: 5px solid #7289DA;
-    border-radius: 10px;
-    margin-top: 30px;
-    margin-left: 180px;
+    width: /*250px*/16.534vw;
+    border: /*5px*/0.331vw solid #7289DA;
+    border-radius: /*10px*/0.661vw;
+    margin-top: /*30px*/1.984vw;
+    margin-left: /*180px*/11.905vw;
     transform: rotate(-10deg);
-    box-shadow: 0px 0px 5px 2px black;
+    box-shadow: 0 0 /*5px*/0.331vw /*2px*/0.132vw black;
 }
 
 img.oldshop {
     float: right;
-    width: 250px;
-    border: 5px solid #7289DA;
-    border-radius: 10px;
-    margin-top: 30px;
-    margin-right: 180px;
+    width: /*250px*/16.534vw;
+    border: /*5px*/0.331vw solid #7289DA;
+    border-radius: /*10px*/0.661vw;
+    margin-top: /*30px*/1.984vw;
+    margin-right: /*180px*/11.905vw;
     transform: rotate(10deg);
-    box-shadow: 0px 0px 5px 2px black;
+    box-shadow: 0 0 /*5px*/0.331vw /*2px*/0.132vw black;
 }
 
 div.brand {
     text-align: center;
     font-family: 'Balsamiq Sans';
-    font-size: 25px;
+    font-size: /*25px*/1.653vw;
     color: #E3E5E9;
-    margin-top: 60px;
-    text-shadow: 3px 3px 3px black;
+    margin-top: /*60px*/3.968vw;
+    text-shadow: /*3px*/0.198vw /*3px*/0.198vw /*3px*/0.198vw black;
 }
 
 img.brand {
-    width: 180px;
+    width: /*180px*/11.905vw;
 }
 
 div.button {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: /*100px*/6.614vw;
 }
 
 h1.button {
     display: inline;
     font-family: 'Raleway';
-    font-size: 30px;
+    font-size: /*30px*/1.984vw;
     color: #E3E5E9;
     background-color: #33363D;
-    border-radius: 40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    box-shadow: 0px 0px 5px 2px black;
+    border-radius: /*40px*/2.646vw;
+    padding-top: /*15px*/0.992vw;
+    padding-bottom: /*15px*/0.992vw;
+    padding-left: /*30px*/1.984vw;
+    padding-right: /*30px*/1.984vw;
+    margin-left: /*10px*/0.661vw;
+    margin-right: /*10px*/0.661vw;
+    box-shadow: 0 0 /*5px*/0.331vw /*2px*/0.132vw black;
     transition: 0.3s;
 }
 
@@ -160,13 +160,13 @@ h1.button:hover {
 }
 
 img.all-sets {
-    width: 1000px;
-    margin-bottom: 60px;
+    width: /*1000px*/66.138vw;
+    margin-bottom: /*60px*/3.968vw;
 }
 
 div.news-container {
     display: table;
-    border-spacing: 50px 0;
+    border-spacing: /*50px*/3.307vw 0;
     margin: auto; /*centers divs*/
 }
 
@@ -174,31 +174,31 @@ div.news {
     display: table-cell;
     overflow: hidden;
     font-family: 'Balsamiq Sans';
-    font-size: 25px;
+    font-size: /*25px*/1.653vw;
     color: #7289DA;
     background-color: #181A1C;
-    border-radius: 10px;
-    width: 500px;
-    padding: 30px;
-    padding-top: 5px;
-    text-shadow: 3px 3px 3px black;
-    box-shadow: 0px 0px 5px 2px black;
+    border-radius: /*10px*/0.661vw;
+    width: /*500px*/33.069vw;
+    padding: /*30px*/1.984vw;
+    padding-top: /*5px*/0.331vw;
+    text-shadow: /*3px*/0.198vw /*3px*/0.198vw /*3px*/0.198vw black;
+    box-shadow: 0 0 /*5px*/0.331vw /*2px*/0.132vw black;
 }
 
 img.latest {
-    border: 5px solid #7289DA;
-    border-radius: 10px;
+    border: /*5px*/0.331vw solid #7289DA;
+    border-radius: /*10px*/0.661vw;
     width: 100%;
-    box-shadow: 0px 0px 5px 2px black;
+    box-shadow: 0 0 /*5px*/0.331vw /*2px*/0.132vw black;
 }
 
 ul.upcoming {
     text-align: left;
     font-family: 'Raleway';
-    font-size: 12px;
+    font-size: /*12px*/0.794vw;
     color: #E3E5E9;
-    padding-left: 15px;
-    text-shadow: 3px 3px 3px black;
+    padding-left: /*15px*/0.992vw;
+    text-shadow: /*3px*/0.198vw /*3px*/0.198vw /*3px*/0.198vw black;
 }
 
 /*tutorial*/
@@ -207,65 +207,65 @@ div.disclaimer {
     text-align: center;
     overflow: hidden;
     background-color: #181A1C;
-    border-radius: 10px;
-    width: 810px;
-    padding: 30px;
-    margin-bottom: 60px;
+    border-radius: /*10px*/0.661vw;
+    width: /*810px*/53.571vw;
+    padding: /*30px*/1.984vw;
+    margin-bottom: /*60px*/3.968vw;
     margin-left: auto;
     margin-right: auto;
-    text-shadow: 3px 3px 3px black;
-    box-shadow: 0px 0px 5px 2px black;
+    text-shadow: /*3px*/0.198vw /*3px*/0.198vw /*3px*/0.198vw black;
+    box-shadow: 0 0 /*5px*/0.331vw /*2px*/0.132vw black;
 }
 
 h1.disclaimer {
     display: inline;
     vertical-align: middle;
     font-family: 'Raleway';
-    font-size: 25px;
+    font-size: /*25px*/1.653vw;
     color: #E3E5E9;
-    margin-left: 20px;
+    margin-left: /*20px*/1.323vw;
 }
 
 img.jigglypuff {
     vertical-align: middle;
-    width: 60px;
+    width: /*60px*/3.968vw;
 }
 
 div.lesson {
     overflow: hidden;
     background-color: #181A1C;
-    border-radius: 10px;
-    padding: 30px;
-    margin-bottom: 60px;
-    text-shadow: 3px 3px 3px black;
-    box-shadow: 0px 0px 5px 2px black;
+    border-radius: /*10px*/0.661vw;
+    padding: /*30px*/1.984vw;
+    margin-bottom: /*60px*/3.968vw;
+    text-shadow: /*3px*/0.198vw /*3px*/0.198vw /*3px*/0.198vw black;
+    box-shadow: 0 0 /*5px*/0.331vw /*2px*/0.132vw black;
 }
 
 img.preview {
-    border: 5px solid #7289DA;
-    border-radius: 10px;
-    width: 500px;
-    box-shadow: 0px 0px 5px 2px black;
+    border: /*5px*/0.331vw solid #7289DA;
+    border-radius: /*10px*/0.661vw;
+    width: /*500px*/33.069vw;
+    box-shadow: 0 0 /*5px*/0.331vw /*2px*/0.132vw black;
 }
 
 img.item {
     vertical-align: middle;
-    width: 100px;
+    width: /*100px*/6.614vw;
 }
 
 h1.item-name {
     display: inline;
     vertical-align: middle;
     font-family: 'Balsamiq Sans';
-    font-size: 50px;
-    margin-left: 20px;
+    font-size: /*50px*/3.307vw;
+    margin-left: /*20px*/1.323vw;
 }
 
 h1.tip {
     font-family: 'Raleway';
-    font-size: 25px;
+    font-size: /*25px*/1.653vw;
     color: #E3E5E9;
-    margin-top: 25px;
+    margin-top: /*25px*/1.653vw;
 }
 
 /*commands*/
@@ -273,57 +273,57 @@ h1.tip {
 div.category {
     text-align: left;
     font-family: 'Balsamiq Sans';
-    font-size: 20px;
+    font-size: /*20px*/1.323vw;
     color: #7289DA;
-    margin-top: 60px;
-    margin-left: 150px;
-    text-shadow: 3px 3px 3px black;
+    margin-top: /*60px*/3.968vw;
+    margin-left: /*150px*/9.921vw;
+    text-shadow: /*3px*/0.198vw /*3px*/0.198vw /*3px*/0.198vw black;
 }
 
 h1.collapsible {
     text-align: left;
     font-family: 'Raleway';
-    font-size: 20px;
+    font-size: /*20px*/1.323vw;
     color: #E3E5E9;
     background-color: #33363D;
-    border-radius: 10px;
-    width: 500px;
-    padding: 18px;
-    margin-left: 150px;
-    box-shadow: 0px 0px 5px 2px black;
+    border-radius: /*10px*/0.661vw;
+    width: /*500px*/33.069vw;
+    padding: /*18px*/1.190vw;
+    margin-left: /*150px*/9.921vw;
+    box-shadow: 0 0 /*5px*/0.331vw /*2px*/0.132vw black;
     transition: 0.3s;
 }
 
 h1.collapsible:hover {
     color: black;
     background-color: #FEBE54;
-    width: 550px;
+    width: /*550px*/36.376vw;
 }
 
 h1.collapsible-active {
     color: black;
     background-color: #FEBE54;
-    width: 550px;
+    width: /*550px*/36.376vw;
 }
   
 div.content {
     display: none;
     float: right;
     font-family: 'Raleway';
-    font-size: 10px;
+    font-size: /*10px*/0.661vw;
     color: #E3E5E9;
     background-color: #181A1C;
-    border-radius: 10px;
-    padding: 30px;
-    padding-top: 8px;
-    margin-right: 150px;
-    box-shadow: 0px 0px 5px 2px black;
+    border-radius: /*10px*/0.661vw;
+    padding: /*30px*/1.984vw;
+    padding-top: /*8px*/0.529vw;
+    margin-right: /*150px*/9.921vw;
+    box-shadow: 0 0 /*5px*/0.331vw /*2px*/0.132vw black;
 }
 
 img.demo {
     float: right; /*if both div and img float, then they will align*/
-    border: 5px solid #7289DA;
-    border-radius: 10px;
-    width: 520px;
-    box-shadow: 0px 0px 5px 2px black;
+    border: /*5px*/0.331vw solid #7289DA;
+    border-radius: /*10px*/0.661vw;
+    width: /*520px*/34.392vw;
+    box-shadow: 0 0 /*5px*/0.331vw /*2px*/0.132vw black;
 }
