@@ -5,8 +5,6 @@
 /*pacifico*/
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-/*general*/
-
 body {
     background-color: #181A1C;
     margin: 0;
@@ -21,14 +19,9 @@ a {
 header {
     text-align: center;
     background-color: #181A1C;
-    padding: 20px;
-    margin-bottom: 60px;
-    box-shadow: 0px 0px 10px 3px black;
-}
-
-img.logo {
-    float: left;
-    width: 60px;
+    padding: /*20px*/1.323vw;
+    margin-bottom: /*60px*/3.968vw;
+    box-shadow: 0 0 /*10px*/0.661vw /*3px*/0.198vw black;
 }
 
 div.top-menu {
@@ -53,6 +46,11 @@ h1.menu-active {
     color: #FEBE54;
 }
 
+img.logo {
+    float: left;
+    width: 60px;
+}
+
 /*footer*/
 
 footer {
@@ -60,14 +58,6 @@ footer {
     padding: 25px;
     margin-top: 60px;
     box-shadow: 0px 0px 10px 3px black;
-}
-
-h1.logo-name {
-    display: inline;
-    font-family: 'Pacifico';
-    font-size: 30px;
-    color: #E3E5E9;
-    margin-left: 20px;
 }
 
 div.bot-menu {
@@ -88,79 +78,63 @@ h1.bot-menu:hover {
     color: #FEBE54;
 }
 
-/*about*/
-
-div.col-container {
-    display: table;
-    margin: auto;
-    border-spacing: 50px 0;
-}
-
-div.col {
-    display: inline-block;
-    display: table-cell;
-    overflow: hidden;
-    font-family: 'Balsamiq Sans';
-    font-size: /*25px*/1.5vw;
-    color: #7289DA;
-    background-color: #181A1C;
-    border-radius: 10px;
-    width: 500px;
-    padding: 30px;
-    padding-top: 5px;
-    text-shadow: 3px 3px 3px black;
-    box-shadow: 0px 0px 5px 2px black;
-}
-
-img.changes {
-    border: 5px solid #7289DA;
-    border-radius: 10px;
-    width: 100%;
-}
-
-ul.upcoming {
-    text-align: left;
-    font-family: 'Raleway';
-    font-size: 12px;
+h1.logo-name {
+    display: inline;
+    font-family: 'Pacifico';
+    font-size: 30px;
     color: #E3E5E9;
-    padding-left: 15px;
+    margin-left: 20px;
     text-shadow: 3px 3px 3px black;
 }
+
+/*about*/
 
 div.heading {
     text-align: center;
     font-family: 'Balsamiq Sans';
-    font-size: /*25px*/1.5vw;
+    font-size: 25px;
     color: #7289DA;
-    margin-bottom: 60px;
     text-shadow: 3px 3px 3px black;
 }
 
-img.about-shop {
+img.shop {
     float: left;
-    width: /*250px*/16.534vw;
+    width: 250px;
     border: 5px solid #7289DA;
     border-radius: 10px;
-    margin-top: /*30px*/1.984vw;
-    margin-left: /*170px*/11.243vw;
+    margin-top: 30px;
+    margin-left: 180px;
     transform: rotate(-10deg);
+    box-shadow: 0px 0px 5px 2px black;
 }
 
-img.about-oldshop {
+img.oldshop {
     float: right;
-    width: /*250px*/16.534vw;
+    width: 250px;
     border: 5px solid #7289DA;
     border-radius: 10px;
-    margin-top: /*30px*/1.984vw;
-    margin-right: /*170px*/11.243vw;
+    margin-top: 30px;
+    margin-right: 180px;
     transform: rotate(10deg);
+    box-shadow: 0px 0px 5px 2px black;
 }
 
-div.brand-name {
+div.brand {
     text-align: center;
     font-family: 'Balsamiq Sans';
-    font-size: 30px;
+    font-size: 25px;
     color: #E3E5E9;
+    margin-top: 60px;
+    text-shadow: 3px 3px 3px black;
+}
+
+img.brand {
+    width: 180px;
+}
+
+div.button {
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 h1.button {
@@ -172,8 +146,10 @@ h1.button {
     border-radius: 40px;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-right: 2%;
-    padding-left: 2%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     box-shadow: 0px 0px 5px 2px black;
     transition: 0.3s;
 }
@@ -185,20 +161,58 @@ h1.button:hover {
 
 img.all-sets {
     width: 1000px;
+    margin-bottom: 60px;
+}
+
+div.news-container {
+    display: table;
+    border-spacing: 50px 0;
+    margin: auto; /*centers divs*/
+}
+
+div.news {
+    display: table-cell;
+    overflow: hidden;
+    font-family: 'Balsamiq Sans';
+    font-size: 25px;
+    color: #7289DA;
+    background-color: #181A1C;
+    border-radius: 10px;
+    width: 500px;
+    padding: 30px;
+    padding-top: 5px;
+    text-shadow: 3px 3px 3px black;
+    box-shadow: 0px 0px 5px 2px black;
+}
+
+img.latest {
+    border: 5px solid #7289DA;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 0px 5px 2px black;
+}
+
+ul.upcoming {
+    text-align: left;
+    font-family: 'Raleway';
+    font-size: 12px;
+    color: #E3E5E9;
+    padding-left: 15px;
+    text-shadow: 3px 3px 3px black;
 }
 
 /*tutorial*/
 
 div.disclaimer {
     text-align: center;
-    overflow: hidden; /*aligns div and img*/
-    margin-bottom: 70px;
+    overflow: hidden;
     background-color: #181A1C;
     border-radius: 10px;
+    width: 810px;
     padding: 30px;
+    margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
     text-shadow: 3px 3px 3px black;
     box-shadow: 0px 0px 5px 2px black;
 }
@@ -218,11 +232,11 @@ img.jigglypuff {
 }
 
 div.lesson {
-    overflow: hidden; /*aligns div and img*/
-    margin-bottom: 70px;
+    overflow: hidden;
     background-color: #181A1C;
     border-radius: 10px;
     padding: 30px;
+    margin-bottom: 60px;
     text-shadow: 3px 3px 3px black;
     box-shadow: 0px 0px 5px 2px black;
 }
@@ -311,4 +325,5 @@ img.demo {
     border: 5px solid #7289DA;
     border-radius: 10px;
     width: 520px;
+    box-shadow: 0px 0px 5px 2px black;
 }

@@ -24,7 +24,7 @@ document.write(`
     </a>
     <h1 class="bot-menu">|</h1>
 
-    <a href="about.html">
+    <a href="index.html">
         <h1 id="about" class="bot-menu">About Me</h1>
     </a>
 </div>

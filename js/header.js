@@ -3,7 +3,7 @@ document.write(`
 <img class="logo" src="images/logo.png" alt="logo">
 
 <div class="top-menu">
-    <a href="about.html">
+    <a href="index.html">
         <h1 id="about" class="top-menu">About Me</h1>
     </a>
     <a href="tutorial.html">
