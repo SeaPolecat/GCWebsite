@@ -9,62 +9,66 @@
         <link rel="shortcut icon" href="images/favicon.ico">
 
         <meta charset="UTF-8">
+        <meta name="theme-color" content="#408CFF">
         <meta name="keywords" content="gimme, Discord, bot, Pokemon, trading, trade, card, cards, game, fun, collect, tcg">
-        <meta name="description" content="Choose from over 100 unique Pokémon TCG packs to open!">
+        <meta name="description" content="Start collecting digital Pokémon cards today, with over 100 unique booster packs!">
         <meta name="author" content="SeaPolecat">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
-    <body onload="activate('tutorial'); align()" style="background-image: url(images/background.png)">
+    <body onload="activate('tutorial'); start()" style="background-image: url(images/background.png)">
         <script src="js/header.js"></script>
 
-        <div class="disclaimer">
-            <img class="jigglypuff" src="images/tutorial/jigglypuff.gif" alt="jigglypuff">
-            <h1 class="disclaimer">For a full list of commands, please visit the Commands page</h1>
-        </div>
+        <h1 class="heading">Important items to remember:</h1>
         
         <div class="lesson">
             <img class="preview" src="images/tutorial/key-tut.png" alt="unlock">
-            <img class="item" src="images/tutorial/key.png" alt="token">
+            <img class="item" src="images/tutorial/key.png" alt="key">
             <h1 class="item-name" style="color:#F98321">Keys</h1>
             <h1 class="tip">Use <span style="color:#F98321">keys</span> to unlock Pokémon packs</h1>
-            <h1 class="tip">Earn more <span style="color:#F98321">keys</span> from levelling up</h1>
+            <h1 class="tip">Get more <span style="color:#F98321">keys</span> from leveling up</h1>
         </div>
 
         <div class="lesson">
-            <img class="preview" src="images/tutorial/token-tut.png" alt="unlock">
+            <img class="preview" src="images/tutorial/token-tut.png" alt="open">
             <img class="item" src="images/tutorial/token.png" alt="token">
             <h1 class="item-name" style="color:#0C6DFF">Tokens</h1>
             <h1 class="tip">Use <span style="color:#0C6DFF">tokens</span> to open Pokémon packs</h1>
-            <h1 class="tip">Earn more <span style="color:#0C6DFF">tokens</span> from various commands</h1>
+            <h1 class="tip">Get more <span style="color:#0C6DFF">tokens</span> from various commands</h1>
         </div>
 
         <div class="lesson">
-            <img class="preview" src="images/tutorial/xp-tut.png" alt="unlock">
-            <img class="item" src="images/tutorial/xp.png" alt="token">
+            <img class="preview" src="images/tutorial/xp-tut.png" alt="sellall">
+            <img class="item" src="images/tutorial/xp.png" alt="XP">
             <h1 class="item-name" style="color:#23971A">XP</h1>
             <h1 class="tip">Sell your cards to get <span style="color:#23971A">XP</span></h1>
-            <h1 class="tip">Having enough <span style="color:#23971A">XP</span> lets you level up</h1>
+            <h1 class="tip">Getting enough <span style="color:#23971A">XP</span> lets you level up</h1>
         </div>
 
         <div class="lesson">
-            <img class="preview" src="images/tutorial/energy-tut.png" alt="unlock">
-            <img class="item" src="images/tutorial/energy.png" alt="token">
+            <img class="preview" src="images/tutorial/energy-tut.png" alt="buy">
+            <img class="item" src="images/tutorial/energy.png" alt="energy">
             <h1 class="item-name" style="color:#E400FF">Energy</h1>
             <h1 class="tip">Use <span style="color:#E400FF">energy</span> to buy cards from the market</h1>
-            <h1 class="tip">Earn <span style="color:#E400FF">energy</span> by using Gimme Cards often</h1>
+            <h1 class="tip">Get more <span style="color:#E400FF">energy</span> by using Gimme Cards</h1>
         </div>
 
         <div class="lesson">
-            <img class="preview" src="images/tutorial/star-tut.png" alt="unlock">
-            <img class="item" src="images/tutorial/star.png" alt="token">
+            <img class="preview" src="images/tutorial/star-tut.png" alt="open">
+            <img class="item" src="images/tutorial/star.png" alt="star">
             <h1 class="item-name" style="color:#FFC810">Stars</h1>
             <h1 class="tip">Use <span style="color:#FFC810">stars</span> to draw exclusive cards</h1>
-            <h1 class="tip">Earn <span style="color:#FFC810">stars</span> from the daily loot box</h1>
+            <h1 class="tip">Get more <span style="color:#FFC810">stars</span> by voting on Top.gg</h1>
+        </div>
+
+        <div class="button">
+            <a href="commands.html">
+                <h1 class="button">Commands ➜</h1>
+            </a>
         </div>
 
         <script>
-            function align() {
+            function start() {
                 var lessons = document.getElementsByClassName("lesson");
                 var previews = document.getElementsByClassName("preview");
 
