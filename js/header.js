@@ -1,6 +1,6 @@
 document.write(`
 <header id="top">
-<img class="top-logo" src="images/logo2.png" alt="logo">
+<img class="top-logo" src="images/logo2.png" alt="top-logo">
 
 <div class="top-menu">
     <a href="index.html">

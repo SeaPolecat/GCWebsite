@@ -9,8 +9,9 @@
         <link rel="shortcut icon" href="images/favicon.ico">
 
         <meta charset="UTF-8">
+        <meta name="theme-color" content="#408CFF">
         <meta name="keywords" content="gimme, Discord, bot, Pokemon, trading, trade, card, cards, game, fun, collect, tcg">
-        <meta name="description" content="Choose from over 100 unique Pokémon TCG packs to open!">
+        <meta name="description" content="Start collecting digital Pokémon cards today, with over 100 unique booster packs!">
         <meta name="author" content="SeaPolecat">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -18,7 +19,7 @@
     <body onload="activate('commands'); start()" style="background-image: url(images/background.png)">
         <script src="js/header.js"></script>
 
-<!--Getting Tokens-->
+<!--Grinding-->
         <div class="category">
             <h1>How to get Tokens:</h1>
         </div>
@@ -43,6 +44,7 @@
 
         <div class="content" id="daily">
             <h1 class="desc">Get a free shiny card (24 hr cooldown)</h1>
+            <h1 class="desc">🚫 The card cannot be sold for <span style="color:#23971A">XP</span></h1>
             <img class="demo" src="images/commands/daily.png" alt="?daily">
         </div>
         <h1 class="collapsible" onclick="expand(this, 'daily')">?daily</h1>
@@ -73,6 +75,7 @@
 
         <div class="content" id="oldshop">
             <h1 class="desc">Visit the legacy Pokémon packs shop</h1>
+            <h1 class="desc">🚫 Cards from here cannot be sold for <span style="color:#23971A">XP</span></h1>
             <h1 class="desc">Each pack costs 1 <span style="color:#0C6DFF">token</span></h1>
             <img class="demo" src="images/commands/promoshop.png" alt="?rareshop">
         </div>
@@ -136,7 +139,7 @@
 
         <div class="content" id="fav">
             <h1 class="desc">Add a card to your favourites</h1>
-            <h1 class="desc">Favourites cannot be sold</h1>
+            <h1 class="desc">❤️ Favourites cannot be sold</h1>
             <img class="demo" src="images/commands/fav.png" alt="?fav (card number)">
         </div>
         <h1 class="collapsible" onclick="expand(this, 'fav')">?fav (card number)</h1>
@@ -210,7 +213,7 @@
         <h1 class="collapsible" onclick="expand(this, 'setcolor')">?setcolor (hex code)</h1>
 
         <div class="content" id="pin">
-            <h1 class="desc">Display a card of your choice on your backpack</h1>
+            <h1 class="desc">Display one of your cards on your backpack</h1>
             <img class="demo" src="images/commands/pin.png" alt="?pin (card number)">
         </div>
         <h1 class="collapsible" onclick="expand(this, 'pin')">?pin (card number)</h1>
@@ -223,6 +226,7 @@
         <div class="content" id="market">
             <h1 class="desc">View the daily card market</h1>
             <h1 class="desc">Each server has a different market</h1>
+            <h1 class="desc">🚫 Cards from here cannot be sold for <span style="color:#23971A">XP</span></h1>
             <img class="demo" src="images/commands/market.png" alt="?market">
         </div>
         <h1 class="collapsible" onclick="expand(this, 'market')">?market</h1>

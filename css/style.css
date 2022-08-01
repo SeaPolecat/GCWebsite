@@ -44,6 +44,11 @@ h1.button {
     transition: 0.3s;
 }
 
+h1.button:hover {
+    color: black;
+    background-color: #FF4040;
+}
+
 /*header*/
 
 header {
@@ -139,23 +144,13 @@ img.oldshop {
     box-shadow: 0 0 /*5px*/0.331vw /*2px*/0.132vw black;
 }
 
-div.brand {
-    text-align: center;
-    font-family: 'Baloo 2';
-    font-size: /*25px*/1.653vw;
-    color: #E3E5E9;
+img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: /*60px*/3.968vw;
     margin-bottom: /*60px*/3.968vw;
-    text-shadow: /*3px*/0.198vw /*3px*/0.198vw /*3px*/0.198vw black;
-}
-
-img.brand {
     width: /*200px*/13.228vw;
-}
-
-h1.button:hover {
-    color: black;
-    background-color: #FF4040;
 }
 
 img.all-sets {
@@ -192,7 +187,7 @@ h1.news-heading {
     text-shadow: /*3px*/0.198vw /*3px*/0.198vw /*3px*/0.198vw black;
 }
 
-img.latest {
+img.changes {
     border: /*5px*/0.331vw solid #408CFF;
     border-radius: /*10px*/0.661vw;
     width: 100%;
@@ -210,34 +205,6 @@ h1.list {
 }
 
 /*tutorial*/
-
-div.disclaimer {
-    text-align: center;
-    overflow: hidden;
-    background-color: #181A1C;
-    border-radius: /*10px*/0.661vw;
-    width: /*550px*/36.376vw;
-    padding: /*30px*/1.984vw;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    text-shadow: /*3px*/0.198vw /*3px*/0.198vw /*3px*/0.198vw black;
-    box-shadow: 0 0 /*5px*/0.331vw /*2px*/0.132vw black;
-}
-
-h1.disclaimer {
-    display: inline;
-    vertical-align: middle;
-    font-family: 'Raleway';
-    font-size: /*25px*/1.653vw;
-    color: #E3E5E9;
-    margin-left: /*20px*/1.323vw;
-}
-
-img.jigglypuff {
-    vertical-align: middle;
-    width: /*60px*/3.968vw;
-}
 
 div.lesson {
     overflow: hidden;
