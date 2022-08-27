@@ -28,13 +28,13 @@
             <h1 class="desc">Redeem a single <span style="color:#0C6DFF">token</span> (30 min cooldown)</h1>
             <img class="demo" src="images/commands/redeem.png" alt="?redeem">
         </div>
-        <h1 class="collapsible" id="start" onclick="expand(this, 'redeem')">?redeem</h1>
+        <h1 class="collapsible" id="start" onclick="expand(this, 'redeem')">?redeem / ?rd</h1>
 
         <div class="content" id="minigame">
             <h1 class="desc">Play a guessing game (1 hr cooldown)</h1>
             <img class="demo" src="images/commands/minigame.png" alt="?minigame">
         </div>
-        <h1 class="collapsible" onclick="expand(this, 'minigame')">?minigame</h1>
+        <h1 class="collapsible" onclick="expand(this, 'minigame')">?minigame / ?mini</h1>
 
         <div class="content" id="guess">
             <h1 class="desc">Make a guess during the minigame</h1>
@@ -119,7 +119,7 @@
             <br>
             <img class="demo" src="images/commands/backpack-other.png" alt="?backpack (user)" style="margin-top:1.323vw">
         </div>
-        <h1 class="collapsible" onclick="expand(this, 'backpack')">?backpack</h1>
+        <h1 class="collapsible" onclick="expand(this, 'backpack')">?backpack / ?bag</h1>
 
         <div class="content" id="cards">
             <h1 class="desc">See your current card collection</h1>
@@ -303,6 +303,12 @@
             <img class="demo" src="images/commands/rarities.png" alt="?rarities">
         </div>
         <h1 class="collapsible" onclick="expand(this, 'rarities')">?rarities</h1>
+        
+        <div class="content" id="cooldowns">
+            <h1 class="desc">See your current cooldowns for Token and Market commands</h1>
+            <img class="demo" src="images/commands/cooldowns.png" alt="?cooldowns">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'cooldowns')">?cooldowns / ?cd</h1>
 
         <div class="content" id="badges">
             <h1 class="desc">Show every possible badge in this game</h1>
@@ -314,7 +320,13 @@
             <h1 class="desc">See the latest updates to this bot</h1>
             <img class="demo" src="images/commands/changelog.png" alt="?changelog">
         </div>
-        <h1 class="collapsible" onclick="expand(this, 'changelog')">?changelog</h1>
+        <h1 class="collapsible" onclick="expand(this, 'changelog')">?changelog / ?log</h1>
+        
+        <div class="content" id="patreon">
+            <h1 class="desc">View details about the Gimme Cards Patreon page</h1>
+            <img class="demo" src="images/commands/patreon.png" alt="?patreon">
+        </div>
+        <h1 class="collapsible" onclick="expand(this, 'patreon')">?patreon</h1>
 
         <div class="content" id="ranks">
             <h1 class="desc">See the top 10 collectors in your current server</h1>
@@ -326,7 +338,7 @@
             <h1 class="desc">See the top 10 collectors in the world</h1>
             <img class="demo" src="images/commands/leaderboard.png" alt="?leaderboard">
         </div>
-        <h1 class="collapsible" onclick="expand(this, 'leaderboard')">?leaderboard</h1>
+        <h1 class="collapsible" onclick="expand(this, 'leaderboard')">?leaderboard / ?lb</h1>
 
         <div class="content" id="search">
             <h1 class="desc">Search for cards from the Pokémon card database</h1>
@@ -334,18 +346,12 @@
         </div>
         <h1 class="collapsible" onclick="expand(this, 'search')">?search (card name)</h1>
 
-        <div class="content" id="view2">
+        <div class="content" id="sview">
             <h1 class="desc">View a card from your search results</h1>
             <h1 class="desc">Only works after you search something</h1>
-            <img class="demo" src="images/commands/view2.png" alt="?view (card id)">
+            <img class="demo" src="images/commands/view2.png" alt="?sview (card id)">
         </div>
         <h1 class="collapsible" onclick="expand(this, 'view2')">?view (card id)</h1>
-        
-        <div class="content" id="cooldowns">
-            <h1 class="desc">See your current cooldowns for Token and Market commands</h1>
-            <img class="demo" src="images/commands/cooldowns.png" alt="?cooldowns">
-        </div>
-        <h1 class="collapsible" onclick="expand(this, 'cooldowns')">?cooldowns</h1>
 
         <script>
             function start() {
