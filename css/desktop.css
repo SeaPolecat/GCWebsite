@@ -24,7 +24,7 @@ h1.heading {
 
 div.button {
     text-align: center;
-    margin-bottom: /*100px*/6.614vw;
+    margin-bottom: /*80px*/5.291vw;
 }
 
 h1.button {
@@ -61,9 +61,9 @@ header {
 
 div.top-menu {
     line-height: /*25px*/1.653vw;
+    padding: /*15px*/0.992vw;
     margin-top: /*3px*/0.198vw;
     margin-right: /*180px*/11.905vw;
-    padding: /*15px*/0.992vw;
 }
 
 h1.top-menu {
@@ -132,11 +132,39 @@ h1.mobile-menu {
 
 /*index*/
 
-img.shop {
-    float: left;
-    width: /*250px*/16.534vw;
+div.moreinfo {
+    text-align: center;
+    background-color: #33363D;
+    font-family: 'Raleway';
+    font-size: /*15px*/0.992vw;
+    color: #E3E5E9;
     border: /*5px*/0.331vw solid #408CFF;
     border-radius: /*10px*/0.661vw;
+    margin-left: /*500px*/33.069vw;
+    margin-right: /*500px*/33.069vw;
+    box-shadow: 0 0 /*5px*/0.331vw /*2px*/0.132vw black;
+    transition: 0.3s;
+}
+
+div.moreinfo:hover {
+    color: #FF4040;
+    padding-bottom: /*20px*/1.323vw;
+}
+
+h1#moreinfo {
+    display: none;
+    font-family: 'Raleway';
+    font-size: /*20px*/1.323vw;
+    color: #E3E5E9;
+    margin-left: /*20px*/1.323vw;
+    margin-right: /*20px*/1.323vw;
+}
+
+img.shop {
+    float: left;
+    border: /*5px*/0.331vw solid #408CFF;
+    border-radius: /*10px*/0.661vw;
+    width: /*250px*/16.534vw;
     margin-top: /*30px*/1.984vw;
     margin-left: /*200px*/13.228vw;
     transform: rotate(-8deg);
@@ -145,9 +173,9 @@ img.shop {
 
 img.oldshop {
     float: right;
-    width: /*250px*/16.534vw;
     border: /*5px*/0.331vw solid #408CFF;
     border-radius: /*10px*/0.661vw;
+    width: /*250px*/16.534vw;
     margin-top: /*30px*/1.984vw;
     margin-right: /*200px*/13.228vw;
     transform: rotate(8deg);
@@ -156,19 +184,19 @@ img.oldshop {
 
 img.logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: /*60px*/3.968vw;
     margin-bottom: /*60px*/3.968vw;
+    margin-left: auto;
+    margin-right: auto;
     width: /*200px*/13.228vw;
 }
 
 img.all-sets {
     display: block;
     width: /*1000px*/66.138vw;
+    margin-bottom: /*60px*/3.968vw;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: /*60px*/3.968vw;
 }
 
 div.news-container {
@@ -235,7 +263,7 @@ img.preview {
 
 img.item {
     vertical-align: middle;
-    width: 80px;
+    width: /*80px*/5.291vw;
 }
 
 h1.item-name {
@@ -297,6 +325,7 @@ h1.collapsible-active {
 div.content {
     display: none;
     float: right;
+    word-wrap: break-word;
     color: #E3E5E9;
     background-color: #181A1C;
     border-radius: /*10px*/0.661vw;

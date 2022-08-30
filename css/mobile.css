@@ -22,30 +22,30 @@ a {
 h1.heading {
     text-align: center;
     font-family: 'Baloo 2';
-    font-size: 30px;
+    font-size: /*30px*/7.692vw;
     color: #408CFF;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: /*2px*/0.513vw /*2px*/0.513vw /*2px*/0.513vw black;
 }
 
 div.button {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: /*50px*/12.821vw;
 }
 
 h1.button {
     display: inline;
     font-family: 'Raleway';
-    font-size: 20px;
+    font-size: /*20px*/5.128vw;
     color: #E3E5E9;
     background-color: #33363D;
-    border-radius: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
-    box-shadow: 0 0 4px 1px black;
+    border-radius: /*25px*/6.410vw;
+    padding-top: /*10px*/2.564vw;
+    padding-bottom: /*10px*/2.564vw;
+    padding-left: /*20px*/5.128vw;
+    padding-right: /*20px*/5.128vw;
+    margin-left: /*5px*/1.282vw;
+    margin-right: /*5px*/1.282vw;
+    box-shadow: 0 0 /*4px*/1.026vw /*1px*/0.256vw black;
 }
 
 h1.button:hover {
@@ -57,14 +57,14 @@ h1.button:hover {
 
 header {
     background-color: #181A1C;
-    padding: 10px;
-    margin-bottom: 30px;
-    box-shadow: 0 0 4px 1px black;
+    padding: /*10px*/2.564vw;
+    margin-bottom: /*30px*/7.692vw;
+    box-shadow: 0 0 /*4px*/1.026vw /*1px*/0.256vw black;
 }
 
 div.top-menu {
-    margin-top: 3px;
-    padding: 10px;
+    margin-top: /*3px*/0.769vw;
+    padding: /*10px*/2.564vw;
 }
 
 h1.top-menu {
@@ -73,30 +73,30 @@ h1.top-menu {
 
 img.top-logo {
     float: left;
-    height: 35px;
-    margin-top: 8px;
+    height: /*35px*/8.974vw;
+    margin-top: /*8px*/2.051vw;
 }
 
 /*footer*/
 
 footer {
     background-color: #181A1C;
-    padding: 10px;
-    margin-top: 30px;
-    box-shadow: 0 0 4px 1px black;
+    padding: /*10px*/2.564vw;
+    margin-top: /*30px*/7.692vw;
+    box-shadow: 0 0 /*4px*/1.026vw /*1px*/0.256vw black;
 }
 
 div.bott-menu {
-    margin-bottom: 3px;
-    padding: 10px;
+    padding: /*10px*/2.564vw;
+    margin-bottom: /*3px*/0.769vw;
 }
 
 h1.bott-menu {
     display: inline;
     font-family: 'Raleway';
-    font-size: 20px;
+    font-size: /*20px*/5.128vw;
     color: #AAADB1;
-    margin-left: 70px;
+    margin-left: /*70px*/17.949vw;
 }
 
 h1.bott-menu:hover {
@@ -105,8 +105,8 @@ h1.bott-menu:hover {
 
 img.bott-logo {
     float: left;
-    height: 35px;
-    margin-top: 8px;
+    height: /*35px*/8.974vw;
+    margin-top: /*8px*/2.051vw;
 }
 
 /*mobile menu*/
@@ -114,9 +114,9 @@ img.bott-logo {
 h1.menu-icon {
     display: inline;
     font-family: 'Raleway';
-    font-size: 20px;
+    font-size: /*20px*/5.128vw;
     color: #AAADB1;
-    margin-left: 150px;
+    margin-left: /*150px*/38.462vw;
 }
 
 h1.menu-icon:hover {
@@ -125,12 +125,12 @@ h1.menu-icon:hover {
 
 div.menu {
     text-align: center;
-    margin-top: 30px;
+    margin-top: /*40px*/10.256vw;
 }
 
 h1.menu {
     font-family: 'Raleway';
-    font-size: 25px;
+    font-size: /*25px*/6.410vw;
     color: #AAADB1;
 }
 
@@ -139,6 +139,36 @@ h1.menu:hover {
 }
 
 /*index*/
+
+div.moreinfo {
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: /*10px*/2.564vw;
+    color: #E3E5E9;
+    background-color: #33363D;
+    border: /*3px*/0.769vw solid #408CFF;
+    border-radius: /*8px*/2.051vw;
+    width: /*360px*/92.308vw;
+    margin-bottom: /*30px*/7.692vw;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 /*4px*/1.026vw /*1px*/0.256vw black;
+    transition: 0.3s;
+}
+
+div.moreinfo:hover {
+    color: #FF4040;
+    padding-bottom: /*20px*/5.128vw;
+}
+
+h1#moreinfo {
+    display: none;
+    font-family: 'Raleway';
+    font-size: /*15px*/3.846vw;
+    color: #E3E5E9;
+    margin-left: /*20px*/5.128vw;
+    margin-right: /*20px*/5.128vw;
+}
 
 img.shop {
     display: none;
@@ -150,100 +180,100 @@ img.oldshop {
 
 img.logo {
     display: block;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: /*20px*/5.128vw;
+    margin-bottom: /*40px*/10.256vw;
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
+    width: /*100px*/25.641vw;
 }
 
 img.all-sets {
     display: block;
-    width: 360px;
-    margin-bottom: 40px;
+    width: /*360px*/92.308vw;
+    margin-bottom: /*40px*/10.256vw;
     margin-left: auto;
     margin-right: auto;
 }
 
 div.news {
     background-color: #181A1C;
-    border-radius: 8px;
-    width: 360px;
-    padding: 10px;
+    border-radius: /*8px*/2.051vw;
+    width: /*360px*/92.308vw;
+    padding: /*10px*/2.564vw;
     padding-top: 0;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 0 4px 1px black;
+    box-shadow: 0 0 /*4px*/1.026vw /*1px*/0.256vw black;
 }
 
 h1.news-heading {
     text-align: left;
     font-family: 'Baloo 2';
-    font-size: 30px;
+    font-size: /*30px*/7.692vw;
     color: #408CFF;
-    padding-top: 20px;
-    margin-left: 5px;
-    text-shadow: 2px 2px 2px black;
+    padding-top: /*20px*/5.128vw;
+    margin-left: /*5px*/1.282vw;
+    text-shadow: /*2px*/0.513vw /*2px*/0.513vw /*2px*/0.513vw black;
 }
 
 img.changes {
-    border: 3px solid #408CFF;
-    border-radius: 8px;
+    border: /*3px*/0.769vw solid #408CFF;
+    border-radius: /*8px*/2.051vw;
     width: 100%;
-    box-shadow: 0 0 4px 1px black;
+    box-shadow: 0 0 /*4px*/1.026vw /*1px*/0.256vw black;
 }
 
 h1.list {
     text-align: left;
     font-family: 'Raleway';
-    font-size: 15px;
+    font-size: /*15px*/3.846vw;
     color: #E3E5E9;
-    margin-bottom: 30px;
-    margin-left: 10px;
-    text-shadow: 2px 2px 2px black;
+    margin-bottom: /*30px*/7.692vw;
+    margin-left: /*10px*/2.564vw;
+    text-shadow: /*2px*/0.513vw /*2px*/0.513vw /*2px*/0.513vw black;
 }
 
 /*tutorial*/
 
 div.lesson {
     background-color: #181A1C;
-    border-radius: 8px;
-    width: 360px;
-    padding: 10px;
-    margin-bottom: 30px;
+    border-radius: /*8px*/2.051vw;
+    width: /*360px*/92.308vw;
+    padding: /*10px*/2.564vw;
+    margin-bottom: /*30px*/7.692vw;
     margin-left: auto;
     margin-right: auto;
-    text-shadow: 2px 2px 2px black;
-    box-shadow: 0 0 4px 1px black;
+    text-shadow: /*2px*/0.513vw /*2px*/0.513vw /*2px*/0.513vw black;
+    box-shadow: 0 0 /*4px*/1.026vw /*1px*/0.256vw black;
 }
 
 img.preview {
-    border: 3px solid #408CFF;
-    border-radius: 8px;
+    border: /*3px*/0.769vw solid #408CFF;
+    border-radius: /*8px*/2.051vw;
     width: 100%;
-    margin-bottom: 15px;
-    box-shadow: 0 0 4px 1px black;
+    margin-bottom: /*15px*/3.846vw;
+    box-shadow: 0 0 /*4px*/1.026vw /*1px*/0.256vw black;
 }
 
 img.item {
     vertical-align: middle;
-    width: 40px;
-    margin-left: 10px;
+    width: /*40px*/10.256vw;
+    margin-left: /*10px*/2.564vw;
 }
 
 h1.item-name {
     display: inline;
     vertical-align: middle;
     font-family: 'Baloo 2';
-    font-size: 30px;
+    font-size: /*30px*/7.692vw;
 }
 
 h1.tip {
     font-family: 'Raleway';
-    font-size: 15px;
+    font-size: /*15px*/3.846vw;
     color: #E3E5E9;
-    margin-top: 15px;
-    margin-left: 10px;
+    margin-top: /*15px*/3.846vw;
+    margin-left: /*10px*/2.564vw;
 }
 
 /*commands*/
@@ -251,24 +281,24 @@ h1.tip {
 div.category {
     text-align: center;
     font-family: 'Baloo 2';
-    font-size: 15px;
+    font-size: /*15px*/3.846vw;
     color: #408CFF;
-    margin-top: 30px;
-    text-shadow: 2px 2px 2px black;
+    margin-top: /*30px*/7.692vw;
+    text-shadow: /*2px*/0.513vw /*2px*/0.513vw /*2px*/0.513vw black;
 }
 
 h1.collapsible {
     text-align: left;
     font-family: 'Raleway';
-    font-size: 15px;
+    font-size: /*15px*/3.846vw;
     color: #E3E5E9;
     background-color: #33363D;
-    border-radius: 8px;
-    width: 360px;
-    padding: 10px;
+    border-radius: /*8px*/2.051vw;
+    width: /*360px*/92.308vw;
+    padding: /*10px*/2.564vw;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 0 4px 1px black;
+    box-shadow: 0 0 /*4px*/1.026vw /*1px*/0.256vw black;
 }
 
 h1.collapsible-active {
@@ -281,25 +311,25 @@ div.content {
     float: inline;
     color: #E3E5E9;
     background-color: #181A1C;
-    border-radius: 8px;
-    width: 360px;
-    padding: 10px;
-    padding-top: 5px;
+    border-radius: /*8px*/2.051vw;
+    width: /*360px*/92.308vw;
+    padding: /*10px*/2.564vw;
+    padding-top: /*5px*/1.282vw;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 0 4px 1px black;
+    box-shadow: 0 0 /*4px*/1.026vw /*1px*/0.256vw black;
 }
 
 h1.desc {
     font-family: 'Raleway';
-    font-size: 15px;
-    margin-bottom: 15px;
+    font-size: /*15px*/3.846vw;
+    margin-bottom: /*15px*/3.846vw;
 }
 
 img.demo {
     float: inline; /*if both div and img float, then they will align*/
-    border: 3px solid #408CFF;
-    border-radius: 8px;
+    border: /*3px*/0.769vw solid #408CFF;
+    border-radius: /*8px*/2.051vw;
     width: 100%;
-    box-shadow: 0 0 4px 1px black;
+    box-shadow: 0 0 /*4px*/1.026vw /*1px*/0.256vw black;
 }

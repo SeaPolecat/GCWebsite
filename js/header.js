@@ -18,13 +18,13 @@ document.write(`
     </a>
     <h1 class="top-menu">|</h1>
 
-    <a href="https://discord.gg/X8DKPfWTr7" target="_blank">
-        <h1 class="top-menu">Join Server</h1>
+    <a href="https://www.patreon.com/gimmecards" target="_blank">
+        <h1 class="top-menu">Premium</h1>
     </a>
     <h1 class="top-menu">|</h1>
 
-    <a href="https://discord.com/oauth2/authorize?client_id=814025499381727232&permissions=272448&scope=bot" target="_blank">
-        <h1 class="top-menu">Invite Me</h1>
+    <a href="https://discord.gg/npccDNbPgp" target="_blank">
+        <h1 class="top-menu">Play Now</h1>
     </a>
 
     <a class="menu-link" href="menu.html">
