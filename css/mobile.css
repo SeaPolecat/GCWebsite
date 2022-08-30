@@ -1,0 +1,305 @@
+/*raleway semi-bold*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+/*baloo 2 semi-bold*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+
+html, body {
+    overflow-x: hidden;
+    position: relative;
+}
+
+body {
+    background-color: #181A1C;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*general*/
+
+h1.heading {
+    text-align: center;
+    font-family: 'Baloo 2';
+    font-size: 30px;
+    color: #408CFF;
+    text-shadow: 2px 2px 2px black;
+}
+
+div.button {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h1.button {
+    display: inline;
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: #E3E5E9;
+    background-color: #33363D;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 0 0 4px 1px black;
+}
+
+h1.button:hover {
+    color: black;
+    background-color: #FF4040;
+}
+
+/*header*/
+
+header {
+    background-color: #181A1C;
+    padding: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 4px 1px black;
+}
+
+div.top-menu {
+    margin-top: 3px;
+    padding: 10px;
+}
+
+h1.top-menu {
+    display: none;
+}
+
+img.top-logo {
+    float: left;
+    height: 35px;
+    margin-top: 8px;
+}
+
+/*footer*/
+
+footer {
+    background-color: #181A1C;
+    padding: 10px;
+    margin-top: 30px;
+    box-shadow: 0 0 4px 1px black;
+}
+
+div.bott-menu {
+    margin-bottom: 3px;
+    padding: 10px;
+}
+
+h1.bott-menu {
+    display: inline;
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: #AAADB1;
+    margin-left: 70px;
+}
+
+h1.bott-menu:hover {
+    color: #FF4040;
+}
+
+img.bott-logo {
+    float: left;
+    height: 35px;
+    margin-top: 8px;
+}
+
+/*mobile menu*/
+
+h1.menu-icon {
+    display: inline;
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: #AAADB1;
+    margin-left: 150px;
+}
+
+h1.menu-icon:hover {
+    color: #FF4040;
+}
+
+div.menu {
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1.menu {
+    font-family: 'Raleway';
+    font-size: 25px;
+    color: #AAADB1;
+}
+
+h1.menu:hover {
+    color: #FF4040;
+}
+
+/*index*/
+
+img.shop {
+    display: none;
+}
+
+img.oldshop {
+    display: none;
+}
+
+img.logo {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+img.all-sets {
+    display: block;
+    width: 360px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.news {
+    background-color: #181A1C;
+    border-radius: 8px;
+    width: 360px;
+    padding: 10px;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 4px 1px black;
+}
+
+h1.news-heading {
+    text-align: left;
+    font-family: 'Baloo 2';
+    font-size: 30px;
+    color: #408CFF;
+    padding-top: 20px;
+    margin-left: 5px;
+    text-shadow: 2px 2px 2px black;
+}
+
+img.changes {
+    border: 3px solid #408CFF;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 0 4px 1px black;
+}
+
+h1.list {
+    text-align: left;
+    font-family: 'Raleway';
+    font-size: 15px;
+    color: #E3E5E9;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+/*tutorial*/
+
+div.lesson {
+    background-color: #181A1C;
+    border-radius: 8px;
+    width: 360px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 0 0 4px 1px black;
+}
+
+img.preview {
+    border: 3px solid #408CFF;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 15px;
+    box-shadow: 0 0 4px 1px black;
+}
+
+img.item {
+    vertical-align: middle;
+    width: 40px;
+    margin-left: 10px;
+}
+
+h1.item-name {
+    display: inline;
+    vertical-align: middle;
+    font-family: 'Baloo 2';
+    font-size: 30px;
+}
+
+h1.tip {
+    font-family: 'Raleway';
+    font-size: 15px;
+    color: #E3E5E9;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+/*commands*/
+
+div.category {
+    text-align: center;
+    font-family: 'Baloo 2';
+    font-size: 15px;
+    color: #408CFF;
+    margin-top: 30px;
+    text-shadow: 2px 2px 2px black;
+}
+
+h1.collapsible {
+    text-align: left;
+    font-family: 'Raleway';
+    font-size: 15px;
+    color: #E3E5E9;
+    background-color: #33363D;
+    border-radius: 8px;
+    width: 360px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 4px 1px black;
+}
+
+h1.collapsible-active {
+    color: black;
+    background-color: #FF4040;
+}
+  
+div.content {
+    display: none;
+    float: inline;
+    color: #E3E5E9;
+    background-color: #181A1C;
+    border-radius: 8px;
+    width: 360px;
+    padding: 10px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 4px 1px black;
+}
+
+h1.desc {
+    font-family: 'Raleway';
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+img.demo {
+    float: inline; /*if both div and img float, then they will align*/
+    border: 3px solid #408CFF;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 0 4px 1px black;
+}

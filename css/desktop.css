@@ -120,6 +120,16 @@ img.bott-logo {
     height: /*60px*/3.968vw;
 }
 
+/*menu*/
+
+a.menu-link {
+    display: none;
+}
+
+h1.mobile-menu {
+    display: none;
+}
+
 /*index*/
 
 img.shop {
@@ -225,7 +235,7 @@ img.preview {
 
 img.item {
     vertical-align: middle;
-    width: /*100px*/6.614vw;
+    width: 80px;
 }
 
 h1.item-name {
@@ -276,9 +286,12 @@ h1.collapsible:hover {
 }
 
 h1.collapsible-active {
+    display: inline-flex;
     color: black;
     background-color: #FF4040;
     width: /*550px*/36.376vw;
+    margin-top: 0;
+    margin-bottom: 0;
 }
   
 div.content {

@@ -26,6 +26,10 @@ document.write(`
     <a href="https://discord.com/oauth2/authorize?client_id=814025499381727232&permissions=272448&scope=bot" target="_blank">
         <h1 class="top-menu">Invite Me</h1>
     </a>
+
+    <a class="menu-link" href="menu.html">
+        <h1 class="menu-icon">☰ Menu</h1>
+    </a>
 </div>
 </header>
 

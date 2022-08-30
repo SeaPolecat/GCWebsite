@@ -5,7 +5,8 @@
     <head>
         <title>Tutorial</title>
 
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" media="screen and (min-width: 1000px)" href="css/desktop.css">
+        <link rel="stylesheet" media="screen and (max-width: 1000px)" href="css/mobile.css">
         <link rel="shortcut icon" href="images/favicon.ico">
 
         <meta charset="UTF-8">
@@ -67,27 +68,30 @@
             </a>
         </div>
 
+        <script src="js/jquery-3.6.1.min.js"></script>
         <script>
             function start() {
-                var lessons = document.getElementsByClassName("lesson");
-                var previews = document.getElementsByClassName("preview");
+                if($(window).width() >= 1000) {
+                    var lessons = document.getElementsByClassName("lesson");
+                    var previews = document.getElementsByClassName("preview");
 
-                for(i = 0; i < lessons.length; i+=2) {
-                    lessons[i].style.textAlign = "left";
-                    lessons[i].style.marginLeft = "13.228vw"//"200px";
-                }
-                for(i = 1; i < lessons.length; i+=2) {
-                    lessons[i].style.textAlign = "right";
-                    lessons[i].style.marginRight = "13.228vw"//"200px";
-                }
+                    for(i = 0; i < lessons.length; i+=2) {
+                        lessons[i].style.textAlign = "left";
+                        lessons[i].style.marginLeft = "13.228vw"//"200px";
+                    }
+                    for(i = 1; i < lessons.length; i+=2) {
+                        lessons[i].style.textAlign = "right";
+                        lessons[i].style.marginRight = "13.228vw"//"200px";
+                    }
 
-                for(i = 0; i < previews.length; i+=2) {
-                    previews[i].style.float = "right";
-                    lessons[i].style.marginRight = "13.228vw"//"200px";
-                }
-                for(i = 1; i < previews.length; i+=2) {
-                    previews[i].style.float = "left";
-                    lessons[i].style.marginLeft = "13.228vw"//"200px";
+                    for(i = 0; i < previews.length; i+=2) {
+                        previews[i].style.float = "right";
+                        lessons[i].style.marginRight = "13.228vw"//"200px";
+                    }
+                    for(i = 1; i < previews.length; i+=2) {
+                        previews[i].style.float = "left";
+                        lessons[i].style.marginLeft = "13.228vw"//"200px";
+                    }
                 }
             }
         </script>
