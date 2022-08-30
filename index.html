@@ -5,7 +5,8 @@
     <head>
         <title>About Me</title>
 
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" media="screen and (min-width: 1000px)" href="css/desktop.css">
+        <link rel="stylesheet" media="screen and (max-width: 1000px)" href="css/mobile.css">
         <link rel="shortcut icon" href="images/favicon.ico">
 
         <meta charset="UTF-8">
@@ -25,19 +26,37 @@
             <img class="shop" src="images/index/shop.png" alt="shop">
             <img class="oldshop" src="images/index/oldshop.png" alt="oldshop">
         </div>
+        
+        <div class="moreinfo" onmouseenter="expand()" onmouseleave="compress()">
+            <h1>What is Gimme Cards?</h1>
+
+            <h1 id="moreinfo">
+                <i>Gimme Cards</i> is a Discord bot that gives everyone 
+                the chance to build their dream collection of Pokémon cards!
+                <br><br>
+                With this bot, you can collect, sell, and trade over 10,000 
+                Pokémon cards from 100+ booster packs! No matter where you are, 
+                who you're with, or how much money you have, we can assure you 
+                the <i>best</i> possible TCG experience, 
+                <i>right here, right now!</i>
+                <br><br>
+                We'll see you soon, but in the meantime, make sure to 
+                <i>have fun and stay ultra rare~</i>
+            </h1>
+        </div>
 
         <img class="logo" src="images/index/logo.png" alt="logo">
         
         <div class="button">
-            <a href="https://discord.com/oauth2/authorize?client_id=814025499381727232&permissions=272448&scope=bot" target="_blank">
-                <h1 class="button">Invite Me</h1>
+            <a href="https://discord.gg/npccDNbPgp" target="_blank">
+                <h1 class="button">Play Now</h1>
             </a>
             <a href="tutorial.html">
                 <h1 class="button">Tutorial ➜</h1>
             </a>
         </div>
 
-        <h1 class="heading">...with over 100 unique booster packs!</h1>
+        <h1 class="heading">Enjoy over 100 unique booster packs!</h1>
         <img class="all-sets" src="images/index/all-sets.png" alt="all-sets">
 
         <div class="news-container">
@@ -54,11 +73,17 @@
                 <h1 class="list">➜ Trading credits and tokens</h1>
                 <h1 class="list">➜ Sun & Moon Promo (SMP) cards</h1>
                 <h1 class="list">➜ Daily quests</h1>
-                <h1 class="list">➜ ✓ Shortened commands</h1>
-                <h1 class="list">➜ ✓ Trading cards</h1>
-                
             </div>
         </div>
+
+        <script>
+            function expand() {
+                document.getElementById("moreinfo").style.display = "block";
+            }
+            function compress() {
+                document.getElementById("moreinfo").style.display = "none";
+            }
+        </script>
 
         <script src="js/footer.js"></script>
     </body>

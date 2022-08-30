@@ -5,7 +5,8 @@
     <head>
         <title>Tutorial</title>
 
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" media="screen and (min-width: 1000px)" href="css/desktop.css">
+        <link rel="stylesheet" media="screen and (max-width: 1000px)" href="css/mobile.css">
         <link rel="shortcut icon" href="images/favicon.ico">
 
         <meta charset="UTF-8">
@@ -46,11 +47,11 @@
         </div>
 
         <div class="lesson">
-            <img class="preview" src="images/tutorial/energy-tut.png" alt="buy">
-            <img class="item" src="images/tutorial/energy.png" alt="energy">
-            <h1 class="item-name" style="color:#E400FF">Energy</h1>
-            <h1 class="tip">Use <span style="color:#E400FF">energy</span> to buy cards from the market</h1>
-            <h1 class="tip">Get more <span style="color:#E400FF">energy</span> by using Gimme Cards</h1>
+            <img class="preview" src="images/tutorial/credits-tut.png" alt="buy">
+            <img class="item" src="images/tutorial/credits.png" alt="energy">
+            <h1 class="item-name" style="color:#FC7B78">Credits</h1>
+            <h1 class="tip"><span style="color:#FC7B78">Credits</span> are a multi-purpose currency</h1>
+            <h1 class="tip">Get more <span style="color:#FC7B78">credits</span> by using <i>Gimme Cards</i></h1>
         </div>
 
         <div class="lesson">
@@ -67,27 +68,30 @@
             </a>
         </div>
 
+        <script src="js/jquery-3.6.1.min.js"></script>
         <script>
             function start() {
-                var lessons = document.getElementsByClassName("lesson");
-                var previews = document.getElementsByClassName("preview");
+                if($(window).width() >= 1000) {
+                    var lessons = document.getElementsByClassName("lesson");
+                    var previews = document.getElementsByClassName("preview");
 
-                for(i = 0; i < lessons.length; i+=2) {
-                    lessons[i].style.textAlign = "left";
-                    lessons[i].style.marginLeft = "13.228vw"//"200px";
-                }
-                for(i = 1; i < lessons.length; i+=2) {
-                    lessons[i].style.textAlign = "right";
-                    lessons[i].style.marginRight = "13.228vw"//"200px";
-                }
+                    for(i = 0; i < lessons.length; i+=2) {
+                        lessons[i].style.textAlign = "left";
+                        lessons[i].style.marginLeft = "13.228vw"//"200px";
+                    }
+                    for(i = 1; i < lessons.length; i+=2) {
+                        lessons[i].style.textAlign = "right";
+                        lessons[i].style.marginRight = "13.228vw"//"200px";
+                    }
 
-                for(i = 0; i < previews.length; i+=2) {
-                    previews[i].style.float = "right";
-                    lessons[i].style.marginRight = "13.228vw"//"200px";
-                }
-                for(i = 1; i < previews.length; i+=2) {
-                    previews[i].style.float = "left";
-                    lessons[i].style.marginLeft = "13.228vw"//"200px";
+                    for(i = 0; i < previews.length; i+=2) {
+                        previews[i].style.float = "right";
+                        lessons[i].style.marginRight = "13.228vw"//"200px";
+                    }
+                    for(i = 1; i < previews.length; i+=2) {
+                        previews[i].style.float = "left";
+                        lessons[i].style.marginLeft = "13.228vw"//"200px";
+                    }
                 }
             }
         </script>
