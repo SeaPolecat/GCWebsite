@@ -27,7 +27,7 @@
             <img class="oldshop" src="images/index/oldshop.png" alt="oldshop">
         </div>
         
-        <div class="moreinfo" onmouseenter="expand()" onmouseleave="compress()">
+        <div class="moreinfo" onmouseenter="expand()" onmouseleave="compress()" onclick="safari_expand()">
             <h1>What is Gimme Cards?</h1>
 
             <h1 id="moreinfo">
@@ -76,12 +76,19 @@
             </div>
         </div>
 
+        <script src="js/jquery-3.6.1.min.js"></script>
         <script>
             function expand() {
                 document.getElementById("moreinfo").style.display = "block";
             }
             function compress() {
                 document.getElementById("moreinfo").style.display = "none";
+            }
+
+            function safari_expand() {
+                if($(window).width() < 1000) {
+                    document.getElementById("moreinfo").style.display = "block";
+                }
             }
         </script>
 
