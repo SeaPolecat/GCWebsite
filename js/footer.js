@@ -4,7 +4,7 @@ document.write(`
 
 <div class="bott-menu">
     <a href="#top">
-        <h1 class="bott-menu">^ Back to Top ^</h1>
+        <h1 class="bott-menu">[ Back to Top ]</h1>
     </a>
 </div>
 </footer>
