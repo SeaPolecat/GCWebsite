@@ -18,12 +18,12 @@ document.write(`
     </a>
     <h1 class="top-menu">|</h1>
 
-    <a href="https://www.patreon.com/gimmecards" target="_blank">
+    <a href="https://ko-fi.com/gimmecards" target="_blank">
         <h1 class="top-menu">Premium</h1>
     </a>
     <h1 class="top-menu">|</h1>
 
-    <a href="https://discord.gg/npccDNbPgp" target="_blank">
+    <a href="https://discord.gg/wmVvK2cyzM" target="_blank">
         <h1 class="top-menu">Play Now</h1>
     </a>
 

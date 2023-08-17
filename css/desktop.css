@@ -18,7 +18,7 @@ h1.heading {
     text-align: center;
     font-family: 'Baloo 2';
     font-size: /*50px*/3.307vw;
-    color: #408CFF;
+    color: #56ACFE;
     text-shadow: /*3px*/0.198vw /*3px*/0.198vw /*3px*/0.198vw black;
 }
 
@@ -46,7 +46,7 @@ h1.button {
 
 h1.button:hover {
     color: black;
-    background-color: #FF4040;
+    background-color: #FB312D;
 }
 
 /*header*/
@@ -76,11 +76,11 @@ h1.top-menu {
 }
 
 h1.top-menu:hover {
-    color: #FF4040;
+    color: #FB312D;
 }
 
 h1.menu-active {
-    color: #FF4040;
+    color: #FB312D;
 }
 
 img.top-logo {
@@ -112,7 +112,7 @@ h1.bott-menu {
 }
 
 h1.bott-menu:hover {
-    color: #FF4040;
+    color: #FB312D;
 }
 
 img.bott-logo {
@@ -138,7 +138,7 @@ div.moreinfo {
     font-family: 'Raleway';
     font-size: /*15px*/0.992vw;
     color: #E3E5E9;
-    border: /*5px*/0.331vw solid #408CFF;
+    border: /*5px*/0.331vw solid #56ACFE;
     border-radius: /*10px*/0.661vw;
     margin-left: /*500px*/33.069vw;
     margin-right: /*500px*/33.069vw;
@@ -147,7 +147,7 @@ div.moreinfo {
 }
 
 div.moreinfo:hover {
-    color: #FF4040;
+    color: #FB312D;
     padding-bottom: /*20px*/1.323vw;
 }
 
@@ -162,7 +162,7 @@ h1#moreinfo {
 
 img.shop {
     float: left;
-    border: /*5px*/0.331vw solid #408CFF;
+    border: /*5px*/0.331vw solid #56ACFE;
     border-radius: /*10px*/0.661vw;
     width: /*250px*/16.534vw;
     margin-top: /*30px*/1.984vw;
@@ -173,7 +173,7 @@ img.shop {
 
 img.oldshop {
     float: right;
-    border: /*5px*/0.331vw solid #408CFF;
+    border: /*5px*/0.331vw solid #56ACFE;
     border-radius: /*10px*/0.661vw;
     width: /*250px*/16.534vw;
     margin-top: /*30px*/1.984vw;
@@ -221,12 +221,12 @@ h1.news-heading {
     text-align: left;
     font-family: 'Baloo 2';
     font-size: /*45px*/2.976vw;
-    color: #408CFF;
+    color: #56ACFE;
     text-shadow: /*3px*/0.198vw /*3px*/0.198vw /*3px*/0.198vw black;
 }
 
 img.changes {
-    border: /*5px*/0.331vw solid #408CFF;
+    border: /*5px*/0.331vw solid #56ACFE;
     border-radius: /*10px*/0.661vw;
     width: 100%;
     box-shadow: 0 0 /*5px*/0.331vw /*2px*/0.132vw black;
@@ -255,7 +255,7 @@ div.lesson {
 }
 
 img.preview {
-    border: /*5px*/0.331vw solid #408CFF;
+    border: /*5px*/0.331vw solid #56ACFE;
     border-radius: /*10px*/0.661vw;
     width: /*500px*/33.069vw;
     box-shadow: 0 0 /*5px*/0.331vw /*2px*/0.132vw black;
@@ -287,7 +287,7 @@ div.category {
     text-align: left;
     font-family: 'Baloo 2';
     font-size: /*20px*/1.323vw;
-    color: #408CFF;
+    color: #56ACFE;
     margin-top: /*40px*/2.646vw;
     margin-left: /*150px*/9.921vw;
     text-shadow: /*3px*/0.198vw /*3px*/0.198vw /*3px*/0.198vw black;
@@ -309,14 +309,14 @@ h1.collapsible {
 
 h1.collapsible:hover {
     color: black;
-    background-color: #FF4040;
+    background-color: #FB312D;
     width: /*550px*/36.376vw;
 }
 
 h1.collapsible-active {
     display: inline-flex;
     color: black;
-    background-color: #FF4040;
+    background-color: #FB312D;
     width: /*550px*/36.376vw;
     margin-top: 0;
     margin-bottom: 0;
@@ -343,7 +343,7 @@ h1.desc {
 
 img.demo {
     float: right; /*if both div and img float, then they will align*/
-    border: /*5px*/0.331vw solid #408CFF;
+    border: /*5px*/0.331vw solid #56ACFE;
     border-radius: /*10px*/0.661vw;
     width: /*500px*/33.069vw;
     box-shadow: 0 0 /*5px*/0.331vw /*2px*/0.132vw black;

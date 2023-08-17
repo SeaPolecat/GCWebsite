@@ -23,7 +23,7 @@ h1.heading {
     text-align: center;
     font-family: 'Baloo 2';
     font-size: /*30px*/7.692vw;
-    color: #408CFF;
+    color: #56ACFE;
     text-shadow: /*2px*/0.513vw /*2px*/0.513vw /*2px*/0.513vw black;
 }
 
@@ -50,7 +50,7 @@ h1.button {
 
 h1.button:hover {
     color: black;
-    background-color: #FF4040;
+    background-color: #FB312D;
 }
 
 /*header*/
@@ -100,7 +100,7 @@ h1.bott-menu {
 }
 
 h1.bott-menu:hover {
-    color: #FF4040;
+    color: #FB312D;
 }
 
 img.bott-logo {
@@ -120,7 +120,7 @@ h1.menu-icon {
 }
 
 h1.menu-icon:hover {
-    color: #FF4040;
+    color: #FB312D;
 }
 
 div.menu {
@@ -135,7 +135,7 @@ h1.menu {
 }
 
 h1.menu:hover {
-    color: #FF4040;
+    color: #FB312D;
 }
 
 /*index*/
@@ -146,7 +146,7 @@ div.moreinfo {
     font-size: /*10px*/2.564vw;
     color: #E3E5E9;
     background-color: #33363D;
-    border: /*3px*/0.769vw solid #408CFF;
+    border: /*3px*/0.769vw solid #56ACFE;
     border-radius: /*8px*/2.051vw;
     width: /*360px*/92.308vw;
     margin-bottom: /*30px*/7.692vw;
@@ -157,7 +157,7 @@ div.moreinfo {
 }
 
 div.moreinfo:hover {
-    color: #FF4040;
+    color: #FB312D;
     padding-bottom: /*20px*/5.128vw;
 }
 
@@ -210,14 +210,14 @@ h1.news-heading {
     text-align: left;
     font-family: 'Baloo 2';
     font-size: /*30px*/7.692vw;
-    color: #408CFF;
+    color: #56ACFE;
     padding-top: /*20px*/5.128vw;
     margin-left: /*5px*/1.282vw;
     text-shadow: /*2px*/0.513vw /*2px*/0.513vw /*2px*/0.513vw black;
 }
 
 img.changes {
-    border: /*3px*/0.769vw solid #408CFF;
+    border: /*3px*/0.769vw solid #56ACFE;
     border-radius: /*8px*/2.051vw;
     width: 100%;
     box-shadow: 0 0 /*4px*/1.026vw /*1px*/0.256vw black;
@@ -248,7 +248,7 @@ div.lesson {
 }
 
 img.preview {
-    border: /*3px*/0.769vw solid #408CFF;
+    border: /*3px*/0.769vw solid #56ACFE;
     border-radius: /*8px*/2.051vw;
     width: 100%;
     margin-bottom: /*15px*/3.846vw;
@@ -282,7 +282,7 @@ div.category {
     text-align: center;
     font-family: 'Baloo 2';
     font-size: /*15px*/3.846vw;
-    color: #408CFF;
+    color: #56ACFE;
     margin-top: /*30px*/7.692vw;
     text-shadow: /*2px*/0.513vw /*2px*/0.513vw /*2px*/0.513vw black;
 }
@@ -303,7 +303,7 @@ h1.collapsible {
 
 h1.collapsible-active {
     color: black;
-    background-color: #FF4040;
+    background-color: #FB312D;
 }
   
 div.content {
@@ -328,7 +328,7 @@ h1.desc {
 
 img.demo {
     float: inline; /*if both div and img float, then they will align*/
-    border: /*3px*/0.769vw solid #408CFF;
+    border: /*3px*/0.769vw solid #56ACFE;
     border-radius: /*8px*/2.051vw;
     width: 100%;
     box-shadow: 0 0 /*4px*/1.026vw /*1px*/0.256vw black;
